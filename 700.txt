@@ -721,5 +721,3 @@ halalf:Zee_Susu_Bubuk_Instant_Vanilla_Twist foodlirmm:certificate halalc:0004004
 halalf:Zee_Susu_Bubuk_Instant_Vanilla_Twist food:containsIngredient halali:susu_bubuk_full_krim,halali:sukrosa,halali:maltodekstrin,halali:krimer_nabati,halali:susu_skim_bubuk,halali:perisa_artifisial_vanili,halali:perisa_identik_alami_susu,halali:bifidobacterium_longum,halali:mineral,halali:vitamin .
 
 halalf:Zee_Susu_Bubuk_Instant_Vanilla_Twist food:ingredientsListAsText "susu bubuk full krim", "sukrosa", "maltodekstrin", "krimer nabati", "susu skim bubuk", "perisa artifisial vanili", "perisa identik alami susu", "bifidobacterium longum", "mineral", "vitamin" .
-
-

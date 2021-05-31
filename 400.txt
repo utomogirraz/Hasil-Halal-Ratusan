@@ -1117,5 +1117,3 @@ halalf:Luwak_White_Koffie_3_Rasa foodlirmm:certificate halalc:05100020521120 .
 halalf:Luwak_White_Koffie_3_Rasa food:containsIngredient halali:krimer,halali:glucose_syrup,halali:vegetable_oil,halali:sodium_caseinate,halali:protein_susu,halali:emulsifier_e,halali:stabilizer_e,halali:anti_caking_agent,halali:e,halali:colour_ea,halali:gula,halali:kopi_rendah_asam .
 
 halalf:Luwak_White_Koffie_3_Rasa food:ingredientsListAsText "krimer", "glucose syrup", "vegetable oil", "sodium caseinate", "protein susu", "emulsifier e", "stabilizer e", "anti caking agent", "e", "colour ea", "gula", "kopi rendah asam" .
-
-

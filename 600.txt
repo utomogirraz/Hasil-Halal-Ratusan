@@ -1101,5 +1101,3 @@ halalf:S_W_Mandarin_Orange_In_Light_Syrup a foodlirmm:FoodProduct;
     	gr:hasManufacturer halalm:Pt_Formosa_Ingredient_Factory .
 
     halalf:S_W_Mandarin_Orange_In_Light_Syrup foodlirmm:certificate halalc:17120043981118 .
-
-    
