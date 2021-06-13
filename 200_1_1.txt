@@ -687,9 +687,3 @@ halalf:Ensure_Vanilla a foodlirmm:FoodProduct;
 	foodlirmm:code "1039";
 	rdfs:label "ensure vanilla";
 	gr:hasManufacturer halalm:Cendol_Babe .
-
-halalf:Ensure_Vanilla foodlirmm:certificate halalc:03290027770819 .
-
-halalf:Ensure_Vanilla food:containsIngredient halali:pati_jagung_terhidrolisa,halali:natrium,halali:kalsium_kaseinat,halali:sukrosa,halali:minyak_bunga_matahari_tinggi_oleat,halali:mineral,halali:minyak_kedelai,halali:isolat_protein_kedelai,halali:fruktooligosakarida,halali:inulin,halali:isolat_protein_susu,halali:minyak_kanola,halali:perisa_artifisial_vanili,halali:vitamin .
-
-halalf:Ensure_Vanilla food:ingredientsListAsText "pati jagung terhidrolisa", "natrium", "kalsium kaseinat", "sukrosa", "minyak bunga matahari tinggi oleat", "mineral", "minyak kedelai", "isolat protein kedelai", "frukto-oligosakarida", "inulin", "isolat protein susu", "minyak kanola", "perisa artifisial vanili", "vitamin" .
