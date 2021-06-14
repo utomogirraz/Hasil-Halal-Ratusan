@@ -1,0 +1,1119 @@
+@prefix  rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix  rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix  owl: <http://www.w3.org/2002/07/owl#>.
+@prefix  xsd: <http://www.w3.org/2001/XMLSchema#>.
+@prefix  foaf: <http://xmlns.com/foaf/0.1/>.
+@prefix  halalv: <http://halal.addi.is.its.ac.id/halalv.ttl#>.
+@prefix  halalf: <http://halal.addi.is.its.ac.id/foodproducts/>.
+@prefix  halali: <http://halal.addi.is.its.ac.id/ingredients/>.
+@prefix  halalc: <http://halal.addi.is.its.ac.id/certificates/>.
+@prefix  halals: <http://halal.addi.is.its.ac.id/sources/>.
+@prefix  halalm: <http://halal.addi.is.its.ac.id/manufactures/>.
+@prefix  food: <http://purl.org/foodontology#> .
+@prefix  foodlirmm: <http://data.lirmm.fr/ontologies/food#> .
+@prefix  gr: <http://purl.org/goodrelations/v1#> . 
+@prefix  dbr: <http://dbpedia.org/resource/> .
+
+halalf:Indomie_Mi_Instan_Ayam_Bawang a foodlirmm:FoodProduct;
+	a food:Food;
+	foodlirmm:code "497";
+	rdfs:label "indomie mi instan ayam bawang";
+	gr:hasManufacturer halalm:Pt_Jakarana_Tama .
+
+halalf:Indomie_Mi_Instan_Ayam_Bawang foodlirmm:certificate halalc:00090012840700 .
+
+halalf:Indomie_Mi_Instan_Ayam_Bawang food:containsIngredient halali:tepung_terigu,halali:minyak_sayur,halali:tepung_tapioka,halali:garam,halali:pemantap,halali:nabati,halali:natrium_tripolifosfat,halali:pengatur_keasaman,halali:mineral,halali:zat_besi,halali:pewarna,halali:tartrazin_ci,halali:antioksidan_tbhq,halali:garam,halali:gula,halali:penguat_rasa_mononatrium_glutamat,halali:msg,halali:perisa_ayam,halali:pewarna_penguat_rasa_ribotida,halali:bubuk_bawang_putih,halali:perisa_bawang_bombay,halali:bubuk_lada,halali:daun_bawang,halali:vitamin_a,halali:vitamin_b,halali:vitamin_b,halali:vitamin_b,halali:niasin,halali:asam_folat,halali:pantotenat,halali:bubuk_cabai,halali:minyak_sayur,halali:bawang_merah .
+
+halalf:Indomie_Mi_Instan_Ayam_Bawang food:ingredientsListAsText "tepung terigu", "minyak sayur", "tepung tapioka", "garam", "pemantap", "nabati", "natrium tripolifosfat", "pengatur keasaman", "mineral", "zat besi", "pewarna", "tartrazin ci", "antioksidan tbhq", "garam", "gula", "penguat rasa mononatrium glutamat", "msg", "perisa ayam", "pewarna penguat rasa ribotida", "bubuk bawang putih", "perisa bawang bombay", "bubuk lada", "daun bawang", "vitamin a", "vitamin b", "vitamin b", "vitamin b", "niasin", "asam folat", "pantotenat", "bubuk cabai", "minyak sayur", "bawang merah" .
+
+halalf:Indomie_Mi_Instan_Soto_Mie a foodlirmm:FoodProduct;
+	a food:Food;
+	foodlirmm:code "495";
+	rdfs:label "indomie mi instan soto mie";
+	gr:hasManufacturer halalm:Megahputra_Selahtera_Pt .
+
+halalf:Indomie_Mi_Instan_Soto_Mie foodlirmm:certificate halalc:06090001870608 .
+
+halalf:Indomie_Mi_Instan_Soto_Mie food:containsIngredient halali:tepung_terigu,halali:minyak_sayur,halali:tepung_tapioka,halali:garam,halali:pemantap,halali:nabati,halali:natrium_tripolifosfat,halali:pengatur_keasaman,halali:mineral,halali:zat_besi,halali:pewarna,halali:tartrazin_ci,halali:antioksidan_tbhq,halali:garam,halali:gula,halali:penguat_rasa_mononatrium_glutamat,halali:msg,halali:perisa_sapi,halali:pewarna_karamel,halali:penguat_rasadinatrium_guanilat,halali:inosinat,halali:sulfit,halali:bubuk_bawang_putih,halali:bubuk_bawang_bombay,halali:bubuk_lada,halali:daun_bawang,halali:vitamin_a,halali:vitamin_b,halali:vitamin_b,halali:vitamin_b,halali:niasin,halali:asam_folat,halali:pantotenat,halali:bubuk_cabai,halali:minyak_sayur .
+
+halalf:Indomie_Mi_Instan_Soto_Mie food:ingredientsListAsText "tepung terigu", "minyak sayur", "tepung tapioka", "garam", "pemantap", "nabati", "natrium tripolifosfat", "pengatur keasaman", "mineral", "zat besi", "pewarna", "tartrazin ci", "antioksidan tbhq", "garam", "gula", "penguat rasa mononatrium glutamat", "msg", "perisa sapi", "pewarna karamel", "penguat rasadinatrium guanilat", "inosinat", "sulfit", "bubuk bawang putih", "bubuk bawang bombay", "bubuk lada", "daun bawang", "vitamin a", "vitamin b", "vitamin b", "vitamin b", "niasin", "asam folat", "pantotenat", "bubuk cabai", "minyak sayur" .
+
+halalf:Indomilk_Kental_Manis_Chocolate a foodlirmm:FoodProduct;
+	a food:Food;
+	foodlirmm:code "550";
+	rdfs:label "indomilk kental manis chocolate";
+	gr:hasManufacturer halalm:Pt_Indonesia_Miki_Industries .
+
+halalf:Indomilk_Kental_Manis_Chocolate foodlirmm:certificate halalc:00120059691111 .
+
+halalf:Indomilk_Kental_Manis_Chocolate food:containsIngredient halali:gula,halali:susu_sapi,halali:minyak_nabati,halali:bubuk_whey,halali:bubuk_cokelat,halali:buttermilk_bubuk,halali:maltodekstrin,halali:air,halali:susu_bubuk_skim,halali:perisa_identik_alami,halali:pewarna_alami_karamel_e_c,halali:d,halali:garam,halali:laktosa,halali:penstabil_nabati,halali:antioksidan_tokoferol,halali:vitamin_a,halali:b,halali:kolin,halali:vitamin_d .
+
+halalf:Indomilk_Kental_Manis_Chocolate food:ingredientsListAsText "gula", "susu sapi", "minyak nabati", "bubuk whey", "bubuk cokelat", "buttermilk bubuk", "maltodekstrin", "air", "susu bubuk skim", "perisa identik alami", "pewarna alami karamel e c", "d", "garam", "laktosa", "penstabil nabati", "antioksidan tokoferol", "vitamin a", "b", "kolin", "vitamin d" .
+
+halalf:Isoplus_Minuman_Isotonik a foodlirmm:FoodProduct;
+	a food:Food;
+	foodlirmm:code "899";
+	rdfs:label "isoplus minuman isotonik";
+	gr:hasManufacturer halalm:Kantin_Mamih_Kampus_Uhamka .
+
+halalf:Isoplus_Minuman_Isotonik foodlirmm:certificate halalc:03160034011219 .
+
+halalf:Isoplus_Minuman_Isotonik food:containsIngredient halali:air,halali:gula,halali:pengatur_keasaman,halali:natrium_klorida,halali:antioksidan_vitamin_c,halali:kalium_klorida,halali:kalsium_laktat,halali:perisa_identik_alami_grape_fruit,halali:magnesium_laktat .
+
+halalf:Isoplus_Minuman_Isotonik food:ingredientsListAsText "air", "gula", "pengatur keasaman", "natrium klorida", "antioksidan vitamin c", "kalium klorida", "kalsium laktat", "perisa identik alami grape fruit", "magnesium laktat" .
+
+halalf:Japota_Potato_Chips_Happy_Honey_Butter a foodlirmm:FoodProduct;
+	a food:Food;
+	foodlirmm:code "1111";
+	rdfs:label "japota potato chips happy honey butter";
+	gr:hasManufacturer halalm:Dlala .
+
+halalf:Japota_Potato_Chips_Happy_Honey_Butter foodlirmm:certificate halalc:00100115540221 .
+
+halalf:Japota_Potato_Chips_Happy_Honey_Butter food:containsIngredient halali:kentang,halali:minyak_kelapa_sawit,halali:bumbu_rasa_madu_mentega .
+
+halalf:Japota_Potato_Chips_Happy_Honey_Butter food:ingredientsListAsText "kentang", "minyak kelapa sawit", "bumbu rasa madu mentega" .
+
+halalf:Japota_Potato_Chips_Umami_Japanese_Seaweed a foodlirmm:FoodProduct;
+	a food:Food;
+	foodlirmm:code "1070";
+	rdfs:label "japota potato chips umami japanese seaweed";
+	gr:hasManufacturer halalm:Dlala .
+
+halalf:Japota_Potato_Chips_Umami_Japanese_Seaweed foodlirmm:certificate halalc:00100115540221 .
+
+halalf:Japota_Potato_Chips_Umami_Japanese_Seaweed food:containsIngredient halali:kentang,halali:minyak_kelapa_sawit,halali:bumbu_rasa_rumput_laut,halali:garam,halali:penguat_rasa_mononatrium_glutamat,halali:dinatrium_inosinat,halali:dinatrium_guanilat,halali:rumput_laut,halali:susu_bubuk,halali:bubuk_ikan .
+
+halalf:Japota_Potato_Chips_Umami_Japanese_Seaweed food:ingredientsListAsText "kentang", "minyak kelapa sawit", "bumbu rasa rumput laut", "garam", "penguat rasa mononatrium glutamat", "dinatrium inosinat", "dinatrium guanilat", "rumput laut", "susu bubuk", "bubuk ikan" .
+
+halalf:Javana_Minuman_Teh_Melati a foodlirmm:FoodProduct;
+	a food:Food;
+	foodlirmm:code "420";
+	rdfs:label "javana minuman teh melati";
+	gr:hasManufacturer halalm:Pt_Cahaya_Tirta_Aromma .
+
+halalf:Javana_Minuman_Teh_Melati foodlirmm:certificate halalc:00120076560416 .
+
+halalf:Javana_Minuman_Teh_Melati food:containsIngredient halali:air,halali:gula,halali:daun_teh_melati,halali:daun_teh_dengan_bunga_melati,halali:antioksidan_vitamin_c,halali:perisa_identik_alami_teh_melati .
+
+halalf:Javana_Minuman_Teh_Melati food:ingredientsListAsText "air", "gula", "daun teh melati", "daun teh dengan bunga melati", "antioksidan vitamin c", "perisa identik alami teh melati" .
+
+halalf:Javana_Minuman_Teh_Melati_Gula_Batu a foodlirmm:FoodProduct;
+	a food:Food;
+	foodlirmm:code "191";
+	rdfs:label "javana minuman teh melati gula batu";
+	gr:hasManufacturer halalm:Pt_Forisa_Nusapersada .
+
+halalf:Javana_Minuman_Teh_Melati_Gula_Batu foodlirmm:certificate halalc:00120021940902 .
+
+halalf:Javana_Minuman_Teh_Melati_Gula_Batu food:containsIngredient halali:air,halali:gula,halali:daun_teh_muda,halali:perisa_sintetik,halali:natrium_askorbat,halali:pengatur_keassaman,halali:gula_batu .
+
+halalf:Javana_Minuman_Teh_Melati_Gula_Batu food:ingredientsListAsText "air", "gula", "daun teh muda", "perisa sintetik", "natrium askorbat", "pengatur keassaman", "gula batu" .
+
+halalf:Jele_Minuman_Collagen a foodlirmm:FoodProduct;
+	a food:Food;
+	foodlirmm:code "1193";
+	rdfs:label "jele minuman collagen";
+	gr:hasManufacturer halalm:Zrosee .
+
+halalf:Jele_Minuman_Collagen foodlirmm:certificate halalc:05120021601220 .
+
+halalf:Jele_Minuman_Collagen food:containsIngredient halali:air,halali:konsentrat_sari_buah_anggur,halali:konsentrat_sari_buah_lemon,halali:serat,halali:sirup_fruktosa,halali:gula,halali:penstabil,halali:karagen,halali:gom_kacang_lokus,halali:kolagen_ikan,halali:pengatur_keasaman,halali:asam_sitrat,halali:perisa_artifisial_stroberi,halali:pengawet,halali:natrium_benzoat,halali:kalium_sorbat,halali:vitamin_c,halali:pemanis_buatan,halali:asesulfam_k,halali:sukralosa .
+
+halalf:Jele_Minuman_Collagen food:ingredientsListAsText "air", "konsentrat sari buah anggur", "konsentrat sari buah lemon", "serat", "sirup fruktosa", "gula", "penstabil", "karagen", "gom kacang lokus", "kolagen ikan", "pengatur keasaman", "asam sitrat", "perisa artifisial stroberi", "pengawet", "natrium benzoat", "kalium sorbat", "vitamin c", "pemanis buatan", "asesulfam k", "sukralosa" .
+
+halalf:Jetz_Snack_Shrimp_U_G_Pedas a foodlirmm:FoodProduct;
+	a food:Food;
+	foodlirmm:code "744";
+	rdfs:label "jetz snack shrimp u,g pedas";
+	gr:hasManufacturer halalm:Mitra_Gizi_Sejahtera .
+
+halalf:Jetz_Snack_Shrimp_U_G_Pedas foodlirmm:certificate halalc:01101247600520 .
+
+halalf:Jetz_Snack_Shrimp_U_G_Pedas food:containsIngredient halali:pati_kentang,halali:serpihan_kentang,halali:minyak_sawit,halali:bumbu_cabai,halali:bubuk_cabai,halali:garam .
+
+halalf:Jetz_Snack_Shrimp_U_G_Pedas food:ingredientsListAsText "pati kentang", "serpihan kentang", "minyak sawit", "bumbu cabai", "bubuk cabai", "garam" .
+
+halalf:Jetz_Snack_Stick_Chocofiesta a foodlirmm:FoodProduct;
+	a food:Food;
+	foodlirmm:code "724";
+	rdfs:label "jetz snack stick chocofiesta";
+	gr:hasManufacturer halalm:Yosita_Snack .
+
+halalf:Jetz_Snack_Stick_Chocofiesta foodlirmm:certificate halalc:15100039370819 .
+
+halalf:Jetz_Snack_Stick_Chocofiesta food:containsIngredient halali:gula,halali:tapioka,halali:terigu,halali:minyak_kelapa_sawit,halali:antioksidan_tbhq,halali:lemak_susu,halali:bubuk_cokelat,halali:sirup_glukosa,halali:bubuk_susu,halali:tepung_ubi_jalar,halali:pengembang,halali:garam,halali:pengemulsi_nabati,halali:perisa_cokelat .
+
+halalf:Jetz_Snack_Stick_Chocofiesta food:ingredientsListAsText "gula", "tapioka", "terigu", "minyak kelapa sawit", "antioksidan tbhq", "lemak susu", "bubuk cokelat", "sirup glukosa", "bubuk susu", "tepung ubi jalar", "pengembang", "garam", "pengemulsi nabati", "perisa cokelat" .
+
+halalf:Kacang_Telor a foodlirmm:FoodProduct;
+	a food:Food;
+	foodlirmm:code "365";
+	rdfs:label "kacang telor";
+	gr:hasManufacturer halalm:Riyadussa_Adah .
+
+halalf:Kacang_Telor foodlirmm:certificate halalc:00100115030221 .
+
+halalf:Kacang_Telor food:containsIngredient halali:kacang_tanah,halali:tepung_terigu,halali:tepung_tapioka,halali:minyak_nabati,halali:gula,halali:telur,halali:garam,halali:bawang_merah,halali:bawang_putih,halali:penguat_rasa_mononatrium_glutamat,halali:bubuk_merica .
+
+halalf:Kacang_Telor food:ingredientsListAsText "kacang tanah", "tepung terigu", "tepung tapioka", "minyak nabati", "gula", "telur", "garam", "bawang merah", "bawang putih", "penguat rasa mononatrium glutamat", "bubuk merica" .
+
+halalf:Kapal_Api_Kopi_Bubuk_Special_Mix a foodlirmm:FoodProduct;
+	a food:Food;
+	foodlirmm:code "411";
+	rdfs:label "kapal api kopi bubuk special mix";
+	gr:hasManufacturer halalm:Warung_Bansus_Mang_Apet_Mancur .
+
+halalf:Kapal_Api_Kopi_Bubuk_Special_Mix foodlirmm:certificate halalc:00160099631019 .
+
+halalf:Kapal_Api_Kopi_Bubuk_Special_Mix food:containsIngredient halali:gula,halali:kopi_bubuk .
+
+halalf:Kapal_Api_Kopi_Bubuk_Special_Mix food:ingredientsListAsText "gula", "kopi bubuk" .
+
+halalf:Kapal_Api_Krim_Kafe_Non_Dairy_Creamer a foodlirmm:FoodProduct;
+	a food:Food;
+	foodlirmm:code "814";
+	rdfs:label "kapal api krim kafe non dairy creamer";
+	gr:hasManufacturer halalm:Pt_Hakiki_Donarta .
+
+halalf:Kapal_Api_Krim_Kafe_Non_Dairy_Creamer foodlirmm:certificate halalc:00120078360816 .
+
+halalf:Kapal_Api_Krim_Kafe_Non_Dairy_Creamer food:containsIngredient halali:sirup_glukosa,halali:minyak_nabati,halali:pengemulsi_nabati,halali:penstabil_fosfat,halali:antikempal,halali:perisa_sintetik_krim_susu .
+
+halalf:Kapal_Api_Krim_Kafe_Non_Dairy_Creamer food:ingredientsListAsText "sirup glukosa", "minyak nabati", "pengemulsi nabati", "penstabil fosfat", "antikempal", "perisa sintetik krim susu" .
+
+halalf:Kartika_Toast_Almond_Bites a foodlirmm:FoodProduct;
+	a food:Food;
+	foodlirmm:code "1065";
+	rdfs:label "kartika toast almond bites";
+	gr:hasManufacturer halalm:Pt_Ceres .
+
+halalf:Kartika_Toast_Almond_Bites foodlirmm:certificate halalc:00110040600606 .
+
+halalf:Kartika_Toast_Almond_Bites food:containsIngredient halali:tepung_terigu,halali:gula_kristal,halali:air,halali:kacang_almond,halali:mentega_tawar,halali:mentega,halali:garam,halali:susu_evaporasi .
+
+halalf:Kartika_Toast_Almond_Bites food:ingredientsListAsText "tepung terigu", "gula kristal", "air", "kacang almond", "mentega tawar", "mentega", "garam", "susu evaporasi" .
+
+halalf:Kartika_Toast_Soesnack_Chocolate a foodlirmm:FoodProduct;
+    	a food:Food;
+    	foodlirmm:code "1093";
+    	rdfs:label "kartika toast soesnack chocolate";
+    	gr:hasManufacturer halalm:Cv_Khariza_Inti_Boga .
+
+    halalf:Kartika_Toast_Soesnack_Chocolate foodlirmm:certificate halalc:03160024250419 .
+
+    halalf:Karuhun_Keripik_Singkong_Original a foodlirmm:FoodProduct;
+	a food:Food;
+	foodlirmm:code "23";
+	rdfs:label "karuhun keripik singkong original";
+	gr:hasManufacturer halalm:Kita_Kita .
+
+halalf:Karuhun_Keripik_Singkong_Original foodlirmm:certificate halalc:09100013370720 .
+
+halalf:Karuhun_Keripik_Singkong_Original food:containsIngredient halali:keripik_singkong_piliihan,halali:daun_jeruk,halali:garam,halali:cabai,halali:minyak_goreng,halali:rempah_rempah,halali:bawang_putih .
+
+halalf:Karuhun_Keripik_Singkong_Original food:ingredientsListAsText "keripik singkong piliihan", "daun jeruk", "garam", "cabai", "minyak goreng", "rempah rempah", "bawang putih" .
+
+halalf:Karuhun_Keripik_Singkong_Original_Sp a foodlirmm:FoodProduct;
+	a food:Food;
+	foodlirmm:code "70";
+	rdfs:label "karuhun keripik singkong original sp";
+	gr:hasManufacturer halalm:Kita_Kita .
+
+halalf:Karuhun_Keripik_Singkong_Original_Sp foodlirmm:certificate halalc:09100013370720 .
+
+halalf:Karuhun_Keripik_Singkong_Original_Sp food:containsIngredient halali:keripik_singkong_piliihan,halali:daun_jeruk,halali:garam,halali:cabai,halali:minyak_goreng,halali:rempah_rempah,halali:bawang_putih .
+
+halalf:Karuhun_Keripik_Singkong_Original_Sp food:ingredientsListAsText "keripik singkong piliihan", "daun jeruk", "garam", "cabai", "minyak goreng", "rempah rempah", "bawang putih" .
+
+halalf:Kayarasa_Jahe_Merah_Instant a foodlirmm:FoodProduct;
+	a food:Food;
+	foodlirmm:code "68";
+	rdfs:label "kayarasa jahe merah instant";
+	gr:hasManufacturer halalm:Ummi .
+
+halalf:Kayarasa_Jahe_Merah_Instant foodlirmm:certificate halalc:00120105340720 .
+
+halalf:Kayarasa_Jahe_Merah_Instant food:containsIngredient halali:ekstrak_jahe_merah,halali:gula_pasir_murni .
+
+halalf:Kayarasa_Jahe_Merah_Instant food:ingredientsListAsText "ekstrak jahe merah", "gula pasir murni" .
+
+halalf:Kayarasa_Jasela_Instant a foodlirmm:FoodProduct;
+	a food:Food;
+	foodlirmm:code "1272";
+	rdfs:label "kayarasa jasela instant";
+	gr:hasManufacturer halalm:Ummi .
+
+halalf:Kayarasa_Jasela_Instant foodlirmm:certificate halalc:00120105340720 .
+
+halalf:Kayarasa_Jasela_Instant food:containsIngredient halali:ekstrak_jahe_merah,halali:kayu_alangalang,halali:gula_pasir_murni,halali:rempahrempah .
+
+halalf:Kayarasa_Jasela_Instant food:ingredientsListAsText "ekstrak jahe merah", "kayu alang-alang", "gula pasir murni", "rempah-rempah" .
+
+halalf:Kayarasa_Temulawak_Instant a foodlirmm:FoodProduct;
+	a food:Food;
+	foodlirmm:code "706";
+	rdfs:label "kayarasa temulawak instant";
+	gr:hasManufacturer halalm:Cv_Toga_Nusantara .
+
+halalf:Kayarasa_Temulawak_Instant foodlirmm:certificate halalc:00130056471010 .
+
+halalf:Kayarasa_Temulawak_Instant food:containsIngredient halali:ekstrak_temulawak,halali:rempahrempah_rempah,halali:gula_pasir_murni .
+
+halalf:Kayarasa_Temulawak_Instant food:ingredientsListAsText "ekstrak temulawak", "rempah-rempah rempah", "gula pasir murni" .
+
+halalf:Kepala_Djenggot_Teh_Celup_25_S_Green_Tea a foodlirmm:FoodProduct;
+    	a food:Food;
+    	foodlirmm:code "940";
+    	rdfs:label "kepala djenggot teh celup 25's green tea";
+    	gr:hasManufacturer halalm:Cv_Toga_Nusantara .
+
+    halalf:Kepala_Djenggot_Teh_Celup_25_S_Green_Tea foodlirmm:certificate halalc:00130056471010 .
+
+    halalf:Kewpie_Saus_Siram_Wijen_Sangrai a foodlirmm:FoodProduct;
+    	a food:Food;
+    	foodlirmm:code "760";
+    	rdfs:label "kewpie saus siram wijen sangrai";
+    	gr:hasManufacturer halalm:Pt_Inkenas_Agung .
+
+    halalf:Kewpie_Saus_Siram_Wijen_Sangrai foodlirmm:certificate halalc:00060019690402 .
+
+    halalf:Khong_Guan_Biscuit_Red_Assorted a foodlirmm:FoodProduct;
+	a food:Food;
+	foodlirmm:code "979";
+	rdfs:label "khong guan biscuit red assorted";
+	gr:hasManufacturer halalm:Pt_Khong_Guan_Biscuit_Factory_Indonesia_Ltd .
+
+halalf:Khong_Guan_Biscuit_Red_Assorted foodlirmm:certificate halalc:00100039280306 .
+
+halalf:Khong_Guan_Biscuit_Red_Assorted food:containsIngredient halali:tepung_terigu,halali:gula,halali:lemak_nabati,halali:susu_bubuk,halali:cokelat_bubuk,halali:sultana,halali:garam,halali:telur,halali:bahan_pengembang,halali:natrium_bikarbonat,halali:amonium_bikarbonat,halali:ragi,halali:perisa_susu,halali:perisa_lemon,halali:perisa_nanas,halali:perisa_cokelat,halali:pewarna_makanan,halali:tartrazin,halali:ci .
+
+halalf:Khong_Guan_Biscuit_Red_Assorted food:ingredientsListAsText "tepung terigu", "gula", "lemak nabati", "susu bubuk", "cokelat bubuk", "sultana", "garam", "telur", "bahan pengembang", "natrium bikarbonat", "amonium bikarbonat", "ragi", "perisa susu", "perisa lemon", "perisa nanas", "perisa cokelat", "pewarna makanan", "tartrazin", "ci" .
+
+halalf:Khong_Guan_Biscuit_Red_Segi_Assorted a foodlirmm:FoodProduct;
+	a food:Food;
+	foodlirmm:code "1058";
+	rdfs:label "khong guan biscuit red segi assorted";
+	gr:hasManufacturer halalm:Pt_Khong_Guan_Biscuit_Factory_Indonesia_Ltd .
+
+halalf:Khong_Guan_Biscuit_Red_Segi_Assorted foodlirmm:certificate halalc:00100039280306 .
+
+halalf:Khong_Guan_Biscuit_Red_Segi_Assorted food:containsIngredient halali:tepung_terigu,halali:lemak_nabati,halali:gula,halali:susu_bubuk,halali:cokelat_bubuk,halali:pati_jagung,halali:sultana,halali:mentega,halali:keju_bubuk,halali:telur,halali:garam,halali:bahan_pengembang,halali:natrium_bikarbonat,halali:amonium_bikarbonat,halali:ragi,halali:perisa,halali:susu,halali:cokelat,halali:lemon,halali:nanas,halali:pewarna_makanan,halali:tartrazin_ci .
+
+halalf:Khong_Guan_Biscuit_Red_Segi_Assorted food:ingredientsListAsText "tepung terigu", "lemak nabati", "gula", "susu bubuk", "cokelat bubuk", "pati jagung", "sultana", "mentega", "keju bubuk", "telur", "garam", "bahan pengembang", "natrium bikarbonat", "amonium bikarbonat", "ragi", "perisa", "susu", "cokelat", "lemon", "nanas", "pewarna makanan", "tartrazin ci" .
+
+halalf:Khong_Guan_Crackers_Potatoz a foodlirmm:FoodProduct;
+    	a food:Food;
+    	foodlirmm:code "983";
+    	rdfs:label "khong guan crackers potatoz";
+    	gr:hasManufacturer halalm:Pt_Khong_Guan_Biscuit_Factory_Indonesia_Ltd .
+
+    halalf:Khong_Guan_Crackers_Potatoz foodlirmm:certificate halalc:00100039280306 .
+
+    halalf:Khong_Guan_Crackers_Saltcheese_Barbeque a foodlirmm:FoodProduct;
+    	a food:Food;
+    	foodlirmm:code "1076";
+    	rdfs:label "khong guan crackers saltcheese barbeque";
+    	gr:hasManufacturer halalm:Pt_Khong_Guan_Biscuit_Factory_Indonesia_Ltd .
+
+    halalf:Khong_Guan_Crackers_Saltcheese_Barbeque foodlirmm:certificate halalc:00100039280306 .
+
+    halalf:Khong_Guan_Crackers_Saltcheese_Combociz a foodlirmm:FoodProduct;
+    	a food:Food;
+    	foodlirmm:code "1092";
+    	rdfs:label "khong guan crackers saltcheese combociz";
+    	gr:hasManufacturer halalm:Pt_Khong_Guan_Biscuit_Factory_Indonesia_Ltd .
+
+    halalf:Khong_Guan_Crackers_Saltcheese_Combociz foodlirmm:certificate halalc:00100039280306 .
+
+    halalf:Khong_Guan_Crackers_Saltcheese_Regular a foodlirmm:FoodProduct;
+	a food:Food;
+	foodlirmm:code "1086";
+	rdfs:label "khong guan crackers saltcheese regular";
+	gr:hasManufacturer halalm:Pt_Khong_Guan_Biscuit_Factory_Indonesia_Ltd .
+
+halalf:Khong_Guan_Crackers_Saltcheese_Regular foodlirmm:certificate halalc:00100039280306 .
+
+halalf:Khong_Guan_Crackers_Saltcheese_Regular food:containsIngredient halali:tepung_terigu,halali:lemak_nabati,halali:susu_bubuk,halali:garam,halali:ragi,halali:soda_kue,halali:tepung_keju .
+
+halalf:Khong_Guan_Crackers_Saltcheese_Regular food:ingredientsListAsText "tepung terigu", "lemak nabati", "susu bubuk", "garam", "ragi", "soda kue", "tepung keju" .
+
+halalf:Khong_Guan_Crackers_Salt_Pepper a foodlirmm:FoodProduct;
+    	a food:Food;
+    	foodlirmm:code "1135";
+    	rdfs:label "khong guan crackers salt,pepper";
+    	gr:hasManufacturer halalm:Pt_Khong_Guan_Biscuit_Factory_Indonesia_Ltd .
+
+    halalf:Khong_Guan_Crackers_Salt_Pepper foodlirmm:certificate halalc:00100039280306 .
+
+    halalf:Khong_Guan_Crackers_Wafer_Saltcheese_Combo a foodlirmm:FoodProduct;
+    	a food:Food;
+    	foodlirmm:code "1123";
+    	rdfs:label "khong guan crackers + wafer saltcheese combo";
+    	gr:hasManufacturer halalm:Pt_Serena_Indopangan_Industri .
+
+    halalf:Khong_Guan_Crackers_Wafer_Saltcheese_Combo foodlirmm:certificate halalc:00100040660306 .
+
+    halalf:Khong_Guan_Wafer_Stick_Chocolate a foodlirmm:FoodProduct;
+    	a food:Food;
+    	foodlirmm:code "820";
+    	rdfs:label "khong guan wafer stick chocolate";
+    	gr:hasManufacturer halalm:Bangun_Anugerah_Persada_Pt .
+
+    halalf:Khong_Guan_Wafer_Stick_Chocolate foodlirmm:certificate halalc:07100041411017 .
+
+    halalf:Kikkoman_Saus_Bulgogi a foodlirmm:FoodProduct;
+    	a food:Food;
+    	foodlirmm:code "566";
+    	rdfs:label "kikkoman saus bulgogi";
+    	gr:hasManufacturer halalm:Pt_Bamboe_Indonesia .
+
+    halalf:Kikkoman_Saus_Bulgogi foodlirmm:certificate halalc:088_SPKP_MUI_JATIM .
+
+    halalf:Kikkoman_Saus_Pedas_Ala_Korea a foodlirmm:FoodProduct;
+    	a food:Food;
+    	foodlirmm:code "767";
+    	rdfs:label "kikkoman saus pedas ala korea";
+    	gr:hasManufacturer halalm:Pt_Ajinomoto_Indonesia .
+
+    halalf:Kikkoman_Saus_Pedas_Ala_Korea foodlirmm:certificate halalc:00060008910908 .
+
+    halalf:Kinder_Joy_Chocolate_Crispy_Girl a foodlirmm:FoodProduct;
+	a food:Food;
+	foodlirmm:code "962";
+	rdfs:label "kinder joy chocolate crispy girl";
+	gr:hasManufacturer halalm:Pt_Mayora_Indah_Tbk .
+
+halalf:Kinder_Joy_Chocolate_Crispy_Girl foodlirmm:certificate halalc:00100014301200 .
+
+halalf:Kinder_Joy_Chocolate_Crispy_Girl food:containsIngredient halali:sugar,halali:vegetable_fats,halali:palm,halali:garam,halali:skimmed_milk_powder,halali:fat_reduced_cocoa_powder,halali:wheat_flour,halali:toasted_wheat_germ,halali:wheat_starch,halali:barley_malt_extract,halali:emulsifiers,halali:lecithins_soy,halali:ins,halali:vegetable_oil,halali:sunflower,halali:whey_proteins,halali:flavouring,halali:artificial,halali:raising_agents,halali:amonium_bikarbonat,halali:ins_ii,halali:sodium_bicarbonate,halali:ins_ii,halali:garam .
+
+halalf:Kinder_Joy_Chocolate_Crispy_Girl food:ingredientsListAsText "sugar", "vegetable fats", "palm", "garam", "skimmed milk powder", "fat reduced cocoa powder", "wheat flour", "toasted wheat germ", "wheat starch", "barley malt extract", "emulsifiers", "lecithins soy", "ins", "vegetable oil", "sunflower", "whey proteins", "flavouring", "artificial", "raising agents", "amonium bikarbonat", "ins ii", "sodium bicarbonate", "ins ii", "garam" .
+
+halalf:King_S_Fisher_Sarden_Goreng_Balado a foodlirmm:FoodProduct;
+	a food:Food;
+	foodlirmm:code "762";
+	rdfs:label "king's fisher sarden goreng balado";
+	gr:hasManufacturer halalm:Cv_Pasific_Harvest .
+
+halalf:King_S_Fisher_Sarden_Goreng_Balado foodlirmm:certificate halalc:00030000761094 .
+
+halalf:King_S_Fisher_Sarden_Goreng_Balado food:containsIngredient halali:ikan_sarden,halali:cabai,halali:air,halali:minyak_sayur,halali:bawang_merah,halali:pasta_tomat,halali:gula,halali:bawang_putih,halali:garam,halali:penguat_rasa .
+
+halalf:King_S_Fisher_Sarden_Goreng_Balado food:ingredientsListAsText "ikan sarden", "cabai", "air", "minyak sayur", "bawang merah", "pasta tomat", "gula", "bawang putih", "garam", "penguat rasa" .
+
+halalf:Kit_Kat_Chocolate_2_Fingers_Multipack a foodlirmm:FoodProduct;
+	a food:Food;
+	foodlirmm:code "1120";
+	rdfs:label "kit kat chocolate 2 fingers multipack";
+	gr:hasManufacturer halalm:Nestle_Products_Malaysia_Sdn_Bhd .
+
+halalf:Kit_Kat_Chocolate_2_Fingers_Multipack foodlirmm:certificate halalc:00110020380502 .
+
+halalf:Kit_Kat_Chocolate_2_Fingers_Multipack food:containsIngredient halali:gula,halali:susu_bubuk_full_cream,halali:tepung_terigu,halali:kakao_massa,halali:lemak,halali:minyak_nabati,halali:bubuk_kakao,halali:pengemulsi_lesitin_kedelai,halali:makanan_ragi,halali:pengembang_natrium_bikarbonat,halali:garam,halali:pengembang_kalsium_karbonat,halali:ragi,halali:perisa_vanili .
+
+halalf:Kit_Kat_Chocolate_2_Fingers_Multipack food:ingredientsListAsText "gula", "susu bubuk full cream", "tepung terigu", "kakao massa", "lemak", "minyak nabati", "bubuk kakao", "pengemulsi lesitin kedelai", "makanan ragi", "pengembang natrium bikarbonat", "garam", "pengembang kalsium karbonat", "ragi", "perisa vanili" .
+
+halalf:Kit_Kat_Chocolate_4_Fingers a foodlirmm:FoodProduct;
+	a food:Food;
+	foodlirmm:code "1102";
+	rdfs:label "kit kat chocolate 4 fingers";
+	gr:hasManufacturer halalm:Nestle_Products_Malaysia_Sdn_Bhd .
+
+halalf:Kit_Kat_Chocolate_4_Fingers foodlirmm:certificate halalc:00110020380502 .
+
+halalf:Kit_Kat_Chocolate_4_Fingers food:containsIngredient halali:gula,halali:susu_bubuk_full_cream,halali:tepung_terigu,halali:kakao_massa,halali:lemak,halali:minyak_nabati,halali:bubuk_kakao,halali:pengemulsi_lesitin_kedelai,halali:makanan_ragi,halali:pengembang_natrium_bikarbonat,halali:garam,halali:pengembang_kalsium_karbonat,halali:ragi,halali:perisa_vanili .
+
+halalf:Kit_Kat_Chocolate_4_Fingers food:ingredientsListAsText "gula", "susu bubuk full cream", "tepung terigu", "kakao massa", "lemak", "minyak nabati", "bubuk kakao", "pengemulsi lesitin kedelai", "makanan ragi", "pengembang natrium bikarbonat", "garam", "pengembang kalsium karbonat", "ragi", "perisa vanili" .
+
+halalf:Kit_Kat_Chocolate_4_Fingers_Gold a foodlirmm:FoodProduct;
+	a food:Food;
+	foodlirmm:code "942";
+	rdfs:label "kit kat chocolate 4 fingers gold";
+	gr:hasManufacturer halalm:Nestle_Products_Malaysia_Sdn_Bhd .
+
+halalf:Kit_Kat_Chocolate_4_Fingers_Gold foodlirmm:certificate halalc:00110020380502 .
+
+halalf:Kit_Kat_Chocolate_4_Fingers_Gold food:containsIngredient halali:cokelat_paduan_putih,halali:tepung_terigu,halali:maltodekstrin,halali:lemak,halali:minyak_nabati,halali:sirup_glukosa_bubuk,halali:kakao_bubuk,halali:pewarna_alami_merah_bit,halali:perisa_sintetik,halali:garam,halali:penstabil,halali:pengemulsi_lesitin_kedelai .
+
+halalf:Kit_Kat_Chocolate_4_Fingers_Gold food:ingredientsListAsText "cokelat paduan putih", "tepung terigu", "maltodekstrin", "lemak", "minyak nabati", "sirup glukosa bubuk", "kakao bubuk", "pewarna alami merah bit", "perisa sintetik", "garam", "penstabil", "pengemulsi lesitin kedelai" .
+
+halalf:Klop_Cracker_Saluto_Choconut a foodlirmm:FoodProduct;
+    	a food:Food;
+    	foodlirmm:code "1262";
+    	rdfs:label "klop cracker saluto choconut";
+    	gr:hasManufacturer halalm:Golite .
+
+    halalf:Klop_Cracker_Saluto_Choconut foodlirmm:certificate halalc:01101161420316 .
+
+    halalf:Kobe_Tepung_Bumbu_Putih a foodlirmm:FoodProduct;
+	a food:Food;
+	foodlirmm:code "565";
+	rdfs:label "kobe tepung bumbu putih";
+	gr:hasManufacturer halalm:Prinmkd_Umay .
+
+halalf:Kobe_Tepung_Bumbu_Putih foodlirmm:certificate halalc:15060043501119 .
+
+halalf:Kobe_Tepung_Bumbu_Putih food:containsIngredient halali:tapioca_flour,halali:rice_flour,halali:flavour_enhancer,halali:mononatrium_lglutamat,halali:dinatrium___inosinat,halali:dinatrium___guanilat,halali:garam,halali:white_pepper_powder,halali:nutrneg_essential_oil .
+
+halalf:Kobe_Tepung_Bumbu_Putih food:ingredientsListAsText "tapioca flour", "rice flour", "flavour enhancer", "mononatrium l-glutamat", "dinatrium ' - inosinat", "dinatrium ' - guanilat", "garam", "white pepper powder", "nutrneg essential oil" .
+
+halalf:Kobe_Tepung_Roti a foodlirmm:FoodProduct;
+    	a food:Food;
+    	foodlirmm:code "391";
+    	rdfs:label "kobe tepung roti";
+    	gr:hasManufacturer halalm:Menil .
+
+    halalf:Kobe_Tepung_Roti foodlirmm:certificate halalc:01111089680713 .
+
+    halalf:Kolln_Crunchy_Muesli_Choco_Brittle a foodlirmm:FoodProduct;
+	a food:Food;
+	foodlirmm:code "1167";
+	rdfs:label "kolln crunchy muesli choco brittle";
+	gr:hasManufacturer halalm:Sophie_Souffle_Bakery .
+
+halalf:Kolln_Crunchy_Muesli_Choco_Brittle foodlirmm:certificate halalc:15160042541119 .
+
+halalf:Kolln_Crunchy_Muesli_Choco_Brittle food:containsIngredient halali:serpihan_oat,halali:gula,halali:pengawet_sulfit,halali:minyak_nabati,halali:tepung_gandum,halali:serpihan_gandum,halali:sirup_glukosa,halali:fruktosa,halali:kacang_hezelnut,halali:kakao_massa,halali:lemak_kakao,halali:cokelat_rendah_lemak,halali:tepung_oat,halali:sirup_karamel,halali:sirup_gula_invert,halali:ekstrak_barley_malt,halali:garam,halali:pengemulsi_lesitin,halali:kedelai .
+
+halalf:Kolln_Crunchy_Muesli_Choco_Brittle food:ingredientsListAsText "serpihan oat", "gula", "pengawet sulfit", "minyak nabati", "tepung gandum", "serpihan gandum", "sirup glukosa", "fruktosa", "kacang hezelnut", "kakao massa", "lemak kakao", "cokelat rendah lemak", "tepung oat", "sirup karamel", "sirup gula invert", "ekstrak barley malt", "garam", "pengemulsi lesitin", "kedelai" .
+
+halalf:Kolln_Crunchy_Muesli_Honey_Nut a foodlirmm:FoodProduct;
+	a food:Food;
+	foodlirmm:code "1231";
+	rdfs:label "kolln crunchy muesli honey nut";
+	gr:hasManufacturer halalm:Pt_Satou_Lab .
+
+halalf:Kolln_Crunchy_Muesli_Honey_Nut foodlirmm:certificate halalc:00100104740620 .
+
+halalf:Kolln_Crunchy_Muesli_Honey_Nut food:containsIngredient halali:serpihan_oat,halali:gula,halali:pengawet_sulfit,halali:minyak_nabati,halali:tepung_gandum,halali:serpihan_gandum,halali:sirup_glukosa,halali:fruktosa,halali:kacangkacangan,halali:kacang_almond,halali:kacang_hezelnut,halali:kacang_mede,halali:madu,halali:tepung_oat,halali:ekstrak_barley_malt,halali:garam,halali:perisa_alami_vanili .
+
+halalf:Kolln_Crunchy_Muesli_Honey_Nut food:ingredientsListAsText "serpihan oat", "gula", "pengawet sulfit", "minyak nabati", "tepung gandum", "serpihan gandum", "sirup glukosa", "fruktosa", "kacang-kacangan", "kacang almond", "kacang hezelnut", "kacang mede", "madu", "tepung oat", "ekstrak barley malt", "garam", "perisa alami vanili" .
+
+halalf:Kolln_Muesli_Strawbry_Yogurt a foodlirmm:FoodProduct;
+	a food:Food;
+	foodlirmm:code "1274";
+	rdfs:label "kolln muesli strawbry yogurt";
+	gr:hasManufacturer halalm:Le_Qurma .
+
+halalf:Kolln_Muesli_Strawbry_Yogurt foodlirmm:certificate halalc:03120026520719 .
+
+halalf:Kolln_Muesli_Strawbry_Yogurt food:containsIngredient halali:serpihan_oat,halali:tepung_oat,halali:lemak_nabati,halali:susu_skim_bubuk,halali:yoghurt,halali:gula,halali:sirup_gula_invert,halali:buah_stroberi_kering,halali:konsentrat_sari_buah_stroberi,halali:jagung,halali:laktosa,halali:bubuk_whey,halali:elstrak_barley_malt,halali:dekstrosa,halali:tepung_gandum,halali:pati_jagung,halali:maltodekstrin,halali:konsentrat_sari_buah_lemon,halali:garam,halali:pengemulsi_lesitin_kedelai .
+
+halalf:Kolln_Muesli_Strawbry_Yogurt food:ingredientsListAsText "serpihan oat", "tepung oat", "lemak nabati", "susu skim bubuk", "yoghurt", "gula", "sirup gula invert", "buah stroberi kering", "konsentrat sari buah stroberi", "jagung", "laktosa", "bubuk whey", "elstrak barley malt", "dekstrosa", "tepung gandum", "pati jagung", "maltodekstrin", "konsentrat sari buah lemon", "garam", "pengemulsi lesitin kedelai" .
+
+halalf:Kraft_Cheese_Quick_Melt a foodlirmm:FoodProduct;
+	a food:Food;
+	foodlirmm:code "611";
+	rdfs:label "kraft cheese quick melt";
+	gr:hasManufacturer halalm:Melte_Vanana .
+
+halalf:Kraft_Cheese_Quick_Melt foodlirmm:certificate halalc:02120013670519 .
+
+halalf:Kraft_Cheese_Quick_Melt food:containsIngredient halali:air,halali:keju_cheddar,halali:minyak_nabati,halali:padatan_susu,halali:pengemulsi,halali:garam_fosfat,halali:mo,halali:digliserida,halali:garam_mineral,halali:maltodesktrin,halali:pengatur_keasaman,halali:asam_laktat,halali:gula,halali:pengawet,halali:kalium_sorbat,halali:vitamin_a,halali:vitamin_b,halali:susu .
+
+halalf:Kraft_Cheese_Quick_Melt food:ingredientsListAsText "air", "keju cheddar", "minyak nabati", "padatan susu", "pengemulsi", "garam fosfat", "mo", "digliserida", "garam mineral", "maltodesktrin", "pengatur keasaman", "asam laktat", "gula", "pengawet", "kalium sorbat", "vitamin a", "vitamin b", "susu" .
+
+halalf:Kraft_Cheese_Single_High_Calcium_10S_Plain a foodlirmm:FoodProduct;
+	a food:Food;
+	foodlirmm:code "1249";
+	rdfs:label "kraft cheese single high calcium 10s plain";
+	gr:hasManufacturer halalm:Pt_Kraft_Ultra_Jaya_Indonesia .
+
+halalf:Kraft_Cheese_Single_High_Calcium_10S_Plain foodlirmm:certificate halalc:00040015610601 .
+
+halalf:Kraft_Cheese_Single_High_Calcium_10S_Plain food:containsIngredient halali:keju_cheddar,halali:susu_bubuk,halali:minyak_nabati,halali:pati_nabati,halali:pengemulsi,halali:dinatrium_fosfat,halali:mononatrium_fosfat_tri_kalsium_fosfat,halali:garam,halali:pengawet_kalium_sorbat,halali:nisin,halali:pewarna_annatto,halali:ci,halali:air,halali:min,halali:lemak,halali:db .
+
+halalf:Kraft_Cheese_Single_High_Calcium_10S_Plain food:ingredientsListAsText "keju cheddar", "susu bubuk", "minyak nabati", "pati nabati", "pengemulsi", "dinatrium fosfat", "mononatrium fosfat tri kalsium fosfat", "garam", "pengawet kalium sorbat", "nisin", "pewarna annatto", "ci", "air", "min", "lemak", "db" .
+
+halalf:Kraft_Cheese_Single_High_Calcium_5_S_Plain a foodlirmm:FoodProduct;
+	a food:Food;
+	foodlirmm:code "1252";
+	rdfs:label "kraft cheese single high calcium 5's plain";
+	gr:hasManufacturer halalm:Pt_Kraft_Ultra_Jaya_Indonesia .
+
+halalf:Kraft_Cheese_Single_High_Calcium_5_S_Plain foodlirmm:certificate halalc:00040015610601 .
+
+halalf:Kraft_Cheese_Single_High_Calcium_5_S_Plain food:containsIngredient halali:keju_cheddar,halali:air,halali:pati_kentang_termodifikasi,halali:minyak_nabati,halali:antioksidan_bha,halali:trikalsium_fosfat,halali:pengemulsi,halali:garam_fosfat,halali:padatan_kasein_susu,halali:pengatur_keasaman,halali:asam_laktat,halali:garam,halali:pengawet,halali:kalsium_sorbat,halali:nisin,halali:pewarna_alaanato_ci,halali:vitamin_d .
+
+halalf:Kraft_Cheese_Single_High_Calcium_5_S_Plain food:ingredientsListAsText "keju cheddar", "air", "pati kentang termodifikasi", "minyak nabati", "antioksidan bha", "trikalsium fosfat", "pengemulsi", "garam fosfat", "padatan kasein susu", "pengatur keasaman", "asam laktat", "garam", "pengawet", "kalsium sorbat", "nisin", "pewarna alaanato ci", "vitamin d" .
+
+halalf:Kraft_Keju_Cake a foodlirmm:FoodProduct;
+	a food:Food;
+	foodlirmm:code "403";
+	rdfs:label "kraft keju cake";
+	gr:hasManufacturer halalm:Esthree .
+
+halalf:Kraft_Keju_Cake foodlirmm:certificate halalc:15160029640418 .
+
+halalf:Kraft_Keju_Cake food:containsIngredient halali:tepung_terigu,halali:gula,halali:sirup_glukosa,halali:keju_bubuk,halali:pewarna_kuning_fcf_ci,halali:kurkumin_ci,halali:telur,halali:humektan,halali:gliserol,halali:sorbitol,halali:keju_kraft_cheddar,halali:pengawet,halali:nisin,halali:asam_sorbat,halali:pewarna,halali:annatto_ci,halali:minyak_nabati,halali:pati_jagung,halali:kalsium_karbonat,halali:pengemulsi_nabati,halali:susu_bubuk_skim,halali:garam,halali:pengembang,halali:natrium_bikarbonat,halali:natrium_asam_pirofosfat,halali:pengatur_keasaman,halali:asam_sitrat,halali:pengawet,halali:kalium_sorbat,halali:perisa_artifisial_mentega,halali:vitamin_d .
+
+halalf:Kraft_Keju_Cake food:ingredientsListAsText "tepung terigu", "gula", "sirup glukosa", "keju bubuk", "pewarna kuning fcf ci", "kurkumin ci", "telur", "humektan", "gliserol", "sorbitol", "keju kraft cheddar", "pengawet", "nisin", "asam sorbat", "pewarna", "annatto ci", "minyak nabati", "pati jagung", "kalsium karbonat", "pengemulsi nabati", "susu bubuk skim", "garam", "pengembang", "natrium bikarbonat", "natrium asam pirofosfat", "pengatur keasaman", "asam sitrat", "pengawet", "kalium sorbat", "perisa artifisial mentega", "vitamin d" .
+
+halalf:Kraft_Keju_Cheddar_Olahan a foodlirmm:FoodProduct;
+	a food:Food;
+	foodlirmm:code "475";
+	rdfs:label "kraft keju cheddar olahan";
+	gr:hasManufacturer halalm:Pt_Diamond_Cold_Storage .
+
+halalf:Kraft_Keju_Cheddar_Olahan foodlirmm:certificate halalc:00040040820606 .
+
+halalf:Kraft_Keju_Cheddar_Olahan food:containsIngredient halali:keju_cheddar,halali:air,halali:padatan_kasein_susu,halali:minyak_nabati,halali:antioksidan_bha,halali:pengemulsi,halali:garam_fosfat,halali:pati_jagung,halali:garam,halali:pengatur_keasaman,halali:asam_laktat,halali:pengawet,halali:kalium_sorbat,halali:nissin,halali:pewarna_alami,halali:vitamin_d,halali:antioksidan_tokoferol .
+
+halalf:Kraft_Keju_Cheddar_Olahan food:ingredientsListAsText "keju cheddar", "air", "padatan kasein susu", "minyak nabati", "antioksidan bha", "pengemulsi", "garam fosfat", "pati jagung", "garam", "pengatur keasaman", "asam laktat", "pengawet", "kalium sorbat", "nissin", "pewarna alami", "vitamin d", "antioksidan tokoferol" .
+
+halalf:Kraft_Oreo_Selection_Biscuit_Assorted a foodlirmm:FoodProduct;
+	a food:Food;
+	foodlirmm:code "1054";
+	rdfs:label "kraft oreo selection biscuit assorted";
+	gr:hasManufacturer halalm:Pt_Inkubisc .
+
+halalf:Kraft_Oreo_Selection_Biscuit_Assorted foodlirmm:certificate halalc:00100077860716 .
+
+halalf:Kraft_Oreo_Selection_Biscuit_Assorted food:containsIngredient halali:tepung_terigu,halali:gula,halali:minyak_nabati,halali:antioksidan_tbhq,halali:bubuk_cokelat,halali:sirup_fruktosa,halali:pengembang,halali:natrium,halali:amonium_bikarbonat,halali:pati_jagung,halali:garam,halali:pengemulsi,halali:lesitin_kedelai,halali:perisa_identik_alami_vanili .
+
+halalf:Kraft_Oreo_Selection_Biscuit_Assorted food:ingredientsListAsText "tepung terigu", "gula", "minyak nabati", "antioksidan tbhq", "bubuk cokelat", "sirup fruktosa", "pengembang", "natrium", "amonium bikarbonat", "pati jagung", "garam", "pengemulsi", "lesitin kedelai", "perisa identik alami vanili" .
+
+halalf:Kraft_Sandwich_Mini_Oreo_Chocolate_Cream a foodlirmm:FoodProduct;
+	a food:Food;
+	foodlirmm:code "318";
+	rdfs:label "kraft sandwich mini oreo chocolate cream";
+	gr:hasManufacturer halalm:Mondelez_Indonesia_Manufacturing .
+
+halalf:Kraft_Sandwich_Mini_Oreo_Chocolate_Cream foodlirmm:certificate halalc:00100039270306 .
+
+halalf:Kraft_Sandwich_Mini_Oreo_Chocolate_Cream food:containsIngredient halali:tepung_terigu,halali:gula,halali:minyak_nabati,halali:antioksidan_tbhq,halali:bubuk_serbuk_cokelat,halali:amonium,halali:natrium_bikarbonat,halali:sirup_fruktosa,halali:garam,halali:pati_jagung,halali:pengembang,halali:amonium,halali:natrium_bikarbonat,halali:pengemulsi_lesitin_kedelai,halali:perisa_identik_alami,halali:vanili .
+
+halalf:Kraft_Sandwich_Mini_Oreo_Chocolate_Cream food:ingredientsListAsText "tepung terigu", "gula", "minyak nabati", "antioksidan tbhq", "bubuk serbuk cokelat", "amonium", "natrium bikarbonat", "sirup fruktosa", "garam", "pati jagung", "pengembang", "amonium", "natrium bikarbonat", "pengemulsi lesitin kedelai", "perisa identik alami", "vanili" .
+
+halalf:Kraft_Sandwich_Mini_Oreo_Strawberry a foodlirmm:FoodProduct;
+	a food:Food;
+	foodlirmm:code "873";
+	rdfs:label "kraft sandwich mini oreo strawberry";
+	gr:hasManufacturer halalm:Cv_Kenanga .
+
+halalf:Kraft_Sandwich_Mini_Oreo_Strawberry foodlirmm:certificate halalc:00340105590720 .
+
+halalf:Kraft_Sandwich_Mini_Oreo_Strawberry food:containsIngredient halali:tepung_terigu,halali:gula,halali:minyak_nabati,halali:antioksidan_tbhq,halali:bubuk_serbuk_cokelat,halali:amonium,halali:natrium_bikarbonat,halali:sirup_fruktosa,halali:pengembang,halali:amonium,halali:natrium_bikarbonat,halali:pati_jagung,halali:garam,halali:pengemulsi_lesitin_kedelai,halali:perisa_artifisial_stroberi,halali:identik_alami,halali:vanili,halali:pengatur_keasaman,halali:asam_sitrat,halali:pewarna,halali:karminci .
+
+halalf:Kraft_Sandwich_Mini_Oreo_Strawberry food:ingredientsListAsText "tepung terigu", "gula", "minyak nabati", "antioksidan tbhq", "bubuk serbuk cokelat", "amonium", "natrium bikarbonat", "sirup fruktosa", "pengembang", "amonium", "natrium bikarbonat", "pati jagung", "garam", "pengemulsi lesitin kedelai", "perisa artifisial stroberi", "identik alami", "vanili", "pengatur keasaman", "asam sitrat", "pewarna", "karmin-ci" .
+
+halalf:Kraft_Sandwich_Oreo_Chocolate_Creme a foodlirmm:FoodProduct;
+	a food:Food;
+	foodlirmm:code "1099";
+	rdfs:label "kraft sandwich oreo chocolate creme";
+	gr:hasManufacturer halalm:Mondelez_Indonesia_Manufacturing .
+
+halalf:Kraft_Sandwich_Oreo_Chocolate_Creme foodlirmm:certificate halalc:00100039270306 .
+
+halalf:Kraft_Sandwich_Oreo_Chocolate_Creme food:containsIngredient halali:gula,halali:tepung_terigu,halali:minyak_nabati,halali:antioksidan_tbhq,halali:serbuk_cokelat,halali:sirup_fruktosa,halali:pati_jagung,halali:garam,halali:pengembang,halali:amonium,halali:natrium_bikarbonat,halali:pengemulsi,halali:lesitin_kedelai,halali:perisa_vanili .
+
+halalf:Kraft_Sandwich_Oreo_Chocolate_Creme food:ingredientsListAsText "gula", "tepung terigu", "minyak nabati", "antioksidan tbhq", "serbuk cokelat", "sirup fruktosa", "pati jagung", "garam", "pengembang", "amonium", "natrium bikarbonat", "pengemulsi", "lesitin kedelai", "perisa vanili" .
+
+halalf:Kraft_Sandwich_Oreo_Coklat_Vanila a foodlirmm:FoodProduct;
+	a food:Food;
+	foodlirmm:code "1077";
+	rdfs:label "kraft sandwich oreo coklat,vanila";
+	gr:hasManufacturer halalm:Pt_Raos .
+
+halalf:Kraft_Sandwich_Oreo_Coklat_Vanila foodlirmm:certificate halalc:15160028930118 .
+
+halalf:Kraft_Sandwich_Oreo_Coklat_Vanila food:containsIngredient halali:gula,halali:tepung_terigu,halali:minyak_nabati,halali:antioksidan_tbhq,halali:bubuk/serbuk_cokelat,halali:sirup_fruktosa,halali:pati_jagung,halali:garam,halali:pengembang,halali:amonium,halali:natrium_bikarbonat,halali:pengemulsi,halali:lesitin_kedelai,halali:perisa_vanili .
+
+halalf:Kraft_Sandwich_Oreo_Coklat_Vanila food:ingredientsListAsText "gula", "tepung terigu", "minyak nabati", "antioksidan tbhq", "bubuk/serbuk cokelat", "sirup fruktosa", "pati jagung", "garam", "pengembang", "amonium", "natrium bikarbonat", "pengemulsi", "lesitin kedelai", "perisa vanili" .
+
+halalf:Kraft_Sandwich_Oreo_Dark_White_Chocolate a foodlirmm:FoodProduct;
+	a food:Food;
+	foodlirmm:code "740";
+	rdfs:label "kraft sandwich oreo dark,white chocolate";
+	gr:hasManufacturer halalm:Mondelez_Indonesia_Manufacturing .
+
+halalf:Kraft_Sandwich_Oreo_Dark_White_Chocolate foodlirmm:certificate halalc:00100039270306 .
+
+halalf:Kraft_Sandwich_Oreo_Dark_White_Chocolate food:containsIngredient halali:tepun_terigu,halali:gula,halali:minyak_nabati,halali:cokelat_bubuk,halali:sirup_fruktosa,halali:pengembang,halali:garam,halali:pati_jagung,halali:pengemulsi,halali:perisa_sintetik_cokelat_hitam,halali:cokelat_putih,halali:vanili .
+
+halalf:Kraft_Sandwich_Oreo_Dark_White_Chocolate food:ingredientsListAsText "tepun terigu", "gula", "minyak nabati", "cokelat bubuk", "sirup fruktosa", "pengembang", "garam", "pati jagung", "pengemulsi", "perisa sintetik cokelat hitam", "cokelat putih", "vanili" .
+
+halalf:Kraft_Sandwich_Oreo_Ice_Cream_Blueberry a foodlirmm:FoodProduct;
+	a food:Food;
+	foodlirmm:code "757";
+	rdfs:label "kraft sandwich oreo ice cream blueberry";
+	gr:hasManufacturer halalm:Mondelez_Indonesia_Manufacturing .
+
+halalf:Kraft_Sandwich_Oreo_Ice_Cream_Blueberry foodlirmm:certificate halalc:00100039270306 .
+
+halalf:Kraft_Sandwich_Oreo_Ice_Cream_Blueberry food:containsIngredient halali:gula,halali:tepung_terigu,halali:minyak_nabati,halali:antioksidan_tbhq,halali:bubuk/serbuk_cokelat,halali:sirup_fruktosa,halali:pati_jagung,halali:dekstrosa,halali:garam,halali:pengembang,halali:amonium,halali:natrium_bikarbonat,halali:pengemulsi,halali:lesitin_kedelai,halali:perisa_blueberry,halali:vanili,halali:es_krim,halali:pengatur_keasaman,halali:asam_sitrat,halali:pewarna,halali:karminci,halali:biru_berlianci .
+
+halalf:Kraft_Sandwich_Oreo_Ice_Cream_Blueberry food:ingredientsListAsText "gula", "tepung terigu", "minyak nabati", "antioksidan tbhq", "bubuk/serbuk cokelat", "sirup fruktosa", "pati jagung", "dekstrosa", "garam", "pengembang", "amonium", "natrium bikarbonat", "pengemulsi", "lesitin kedelai", "perisa blueberry", "vanili", "es krim", "pengatur keasaman", "asam sitrat", "pewarna", "karmin-ci", "biru berlian-ci" .
+
+halalf:Kraft_Sandwich_Oreo_Strawbery_Creme a foodlirmm:FoodProduct;
+	a food:Food;
+	foodlirmm:code "1212";
+	rdfs:label "kraft sandwich oreo strawbery creme";
+	gr:hasManufacturer halalm:Pt_Suparma_Tbk .
+
+halalf:Kraft_Sandwich_Oreo_Strawbery_Creme foodlirmm:certificate halalc:00170090670918 .
+
+halalf:Kraft_Sandwich_Oreo_Strawbery_Creme food:containsIngredient halali:gula,halali:tepung_terigu,halali:minyak_nabati,halali:antioksidan_tbhq,halali:bubuk/serbuk_cokelat,halali:sirup_fruktosa,halali:pati_jagung,halali:garam,halali:pengembang,halali:amonium,halali:natrium_bikarbonat,halali:pengemulsi,halali:lesitin_kedelai,halali:perisa_stroberi,halali:vanili,halali:pengatur_keasaman,halali:asam_sitrat,halali:pewarna,halali:karminci,halali:bubuk_stroberi .
+
+halalf:Kraft_Sandwich_Oreo_Strawbery_Creme food:ingredientsListAsText "gula", "tepung terigu", "minyak nabati", "antioksidan tbhq", "bubuk/serbuk cokelat", "sirup fruktosa", "pati jagung", "garam", "pengembang", "amonium", "natrium bikarbonat", "pengemulsi", "lesitin kedelai", "perisa stroberi", "vanili", "pengatur keasaman", "asam sitrat", "pewarna", "karmin-ci", "bubuk stroberi" .
+
+halalf:Kratingdaeng_Energy_Drink_Super a foodlirmm:FoodProduct;
+	a food:Food;
+	foodlirmm:code "1048";
+	rdfs:label "kratingdaeng energy drink super";
+	gr:hasManufacturer halalm:Pt_Wijaya_Putra_Samudra .
+
+halalf:Kratingdaeng_Energy_Drink_Super foodlirmm:certificate halalc:01281250671020 .
+
+halalf:Kratingdaeng_Energy_Drink_Super food:containsIngredient halali:taurine_mg,halali:glucurolactore_mg,halali:cafeine_mg,halali:inositol_mg,halali:lysine_mg,halali:choroline_bitartate_mg,halali:niacicinamide,halali:vitamin_b_mg,halali:pyrodoxine,halali:vitamin_b_mg,halali:dexpanthenol,halali:provitamin_b_mg,halali:cyanocobalamine,halali:vitamin_b_mcg,halali:sugar,halali:gula_murni_g,halali:procoaeu_r_ci,halali:tartrazine_ci,halali:citric_acid,halali:sodium_benzoate,halali:flavouring .
+
+halalf:Kratingdaeng_Energy_Drink_Super food:ingredientsListAsText "taurine mg", "glucurolactore mg", "cafeine mg", "inositol mg", "lysine mg", "choroline bitartate mg", "niacicinamide", "vitamin b mg", "pyrodoxine", "vitamin b mg", "dexpanthenol", "provitamin b mg", "cyanocobalamine", "vitamin b mcg", "sugar", "gula murni g", "procoaeu r ci", "tartrazine ci", "citric acid", "sodium benzoate", "flavouring" .
+
+halalf:Krisbee_Snack_French_Fries a foodlirmm:FoodProduct;
+	a food:Food;
+	foodlirmm:code "858";
+	rdfs:label "krisbee snack french fries";
+	gr:hasManufacturer halalm:Pt_Dayatama_Polanusa .
+
+halalf:Krisbee_Snack_French_Fries foodlirmm:certificate halalc:05160015320818 .
+
+halalf:Krisbee_Snack_French_Fries food:containsIngredient halali:tepung_kentang,halali:tepung_terigu,halali:tepung_tapioka,halali:pati_jagung,halali:minyak_kelapa_sawit,halali:rempah_rempah,halali:gula,halali:garam .
+
+halalf:Krisbee_Snack_French_Fries food:ingredientsListAsText "tepung kentang", "tepung terigu", "tepung tapioka", "pati jagung", "minyak kelapa sawit", "rempah rempah", "gula", "garam" .
+
+halalf:Krisbee_Snack_Pillow_Choco_Lava a foodlirmm:FoodProduct;
+	a food:Food;
+	foodlirmm:code "1090";
+	rdfs:label "krisbee snack pillow choco lava";
+	gr:hasManufacturer halalm:Emmh_Snack_Indonesia .
+
+halalf:Krisbee_Snack_Pillow_Choco_Lava foodlirmm:certificate halalc:07100071130120 .
+
+halalf:Krisbee_Snack_Pillow_Choco_Lava food:containsIngredient halali:cokelat_pasta,halali:padatan_susu,halali:kakao_bubuk,halali:pasta_kacang_hazel,halali:perisa_sintetik,halali:pemanis_alami,halali:tepung_terigu,halali:beras,halali:pewarna_cokelat .
+
+halalf:Krisbee_Snack_Pillow_Choco_Lava food:ingredientsListAsText "cokelat pasta", "padatan susu", "kakao bubuk", "pasta kacang hazel", "perisa sintetik", "pemanis alami", "tepung terigu", "beras", "pewarna cokelat" .
+
+halalf:Kurma_Fresh a foodlirmm:FoodProduct;
+    	a food:Food;
+    	foodlirmm:code "558";
+    	rdfs:label "kurma fresh";
+    	gr:hasManufacturer halalm:Timtim .
+
+    halalf:Kurma_Fresh foodlirmm:certificate halalc:224_SPKP_MUI_JATIM .
+
+    halalf:Kusuka_Cassava_Snack_Barbeque a foodlirmm:FoodProduct;
+	a food:Food;
+	foodlirmm:code "1080";
+	rdfs:label "kusuka cassava snack barbeque";
+	gr:hasManufacturer halalm:Pprinslt_Merak_Snack .
+
+halalf:Kusuka_Cassava_Snack_Barbeque foodlirmm:certificate halalc:15100044071219 .
+
+halalf:Kusuka_Cassava_Snack_Barbeque food:containsIngredient halali:singkong,halali:tepung_beras,halali:minyak_kelapa_sawit,halali:tepung_terigu,halali:bumbu_rasa_barbeque,halali:penguat_rasa_dinatrium_inosinat,halali:guanilat,halali:mononatrium_glutamat,halali:antioksidan_tokoferol,halali:pewarna_alami_kurkumin_ci,halali:pemanis_alami_glikosida_steviol,halali:gula,halali:garam .
+
+halalf:Kusuka_Cassava_Snack_Barbeque food:ingredientsListAsText "singkong", "tepung beras", "minyak kelapa sawit", "tepung terigu", "bumbu rasa barbeque", "penguat rasa dinatrium inosinat", "guanilat", "mononatrium glutamat", "antioksidan tokoferol", "pewarna alami kurkumin ci", "pemanis alami glikosida steviol", "gula", "garam" .
+
+halalf:Kusuka_Keripik_Singkong_Ayam_Lada_Hitam a foodlirmm:FoodProduct;
+	a food:Food;
+	foodlirmm:code "319";
+	rdfs:label "kusuka keripik singkong ayam lada hitam";
+	gr:hasManufacturer halalm:Pt_Universal_Cipta_Pangan .
+
+halalf:Kusuka_Keripik_Singkong_Ayam_Lada_Hitam foodlirmm:certificate halalc:00100048400708 .
+
+halalf:Kusuka_Keripik_Singkong_Ayam_Lada_Hitam food:containsIngredient halali:singkong,halali:minyak_kelapa_sawit,halali:gula,halali:bumbu_rasa_ayam_lada_hitam,halali:natrium_glutamat,halali:garam .
+
+halalf:Kusuka_Keripik_Singkong_Ayam_Lada_Hitam food:ingredientsListAsText "singkong", "minyak kelapa sawit", "gula", "bumbu rasa ayam lada hitam", "natrium glutamat", "garam" .
+
+halalf:Kusuka_Keripik_Singkong_Balado a foodlirmm:FoodProduct;
+	a food:Food;
+	foodlirmm:code "22";
+	rdfs:label "kusuka keripik singkong balado";
+	gr:hasManufacturer halalm:Keripik_Ante .
+
+halalf:Kusuka_Keripik_Singkong_Balado foodlirmm:certificate halalc:02120012290618 .
+
+halalf:Kusuka_Keripik_Singkong_Balado food:containsIngredient halali:singkong,halali:minyak_kelapa_sawit,halali:gula,halali:bumbu_rasa_balado,halali:garam .
+
+halalf:Kusuka_Keripik_Singkong_Balado food:ingredientsListAsText "singkong", "minyak kelapa sawit", "gula", "bumbu rasa balado", "garam" .
+
+halalf:Kusuka_Keripik_Singkong_Barbeque a foodlirmm:FoodProduct;
+	a food:Food;
+	foodlirmm:code "122";
+	rdfs:label "kusuka keripik singkong barbeque";
+	gr:hasManufacturer halalm:Askha_Jaya .
+
+halalf:Kusuka_Keripik_Singkong_Barbeque foodlirmm:certificate halalc:02120014651219 .
+
+halalf:Kusuka_Keripik_Singkong_Barbeque food:containsIngredient halali:singkong,halali:minyak_kelapa_sawit,halali:gula,halali:bumbu_rasa_barbeque,halali:natrium_glutamat,halali:garam .
+
+halalf:Kusuka_Keripik_Singkong_Barbeque food:ingredientsListAsText "singkong", "minyak kelapa sawit", "gula", "bumbu rasa barbeque", "natrium glutamat", "garam" .
+
+halalf:Kusuka_Keripik_Singkong_Keju_Bakar a foodlirmm:FoodProduct;
+	a food:Food;
+	foodlirmm:code "488";
+	rdfs:label "kusuka keripik singkong keju bakar";
+	gr:hasManufacturer halalm:Sopi_Jaya .
+
+halalf:Kusuka_Keripik_Singkong_Keju_Bakar foodlirmm:certificate halalc:01101042420909 .
+
+halalf:Kusuka_Keripik_Singkong_Keju_Bakar food:containsIngredient halali:singkong,halali:minyak_kelapa_sawit,halali:gula,halali:bumbu_rasa_keju_bakar,halali:natrium_glutamat,halali:garam .
+
+halalf:Kusuka_Keripik_Singkong_Keju_Bakar food:ingredientsListAsText "singkong", "minyak kelapa sawit", "gula", "bumbu rasa keju bakar", "natrium glutamat", "garam" .
+
+halalf:Kusuka_Keripik_Singkong_Original a foodlirmm:FoodProduct;
+	a food:Food;
+	foodlirmm:code "24";
+	rdfs:label "kusuka keripik singkong original";
+	gr:hasManufacturer halalm:Kita_Kita .
+
+halalf:Kusuka_Keripik_Singkong_Original foodlirmm:certificate halalc:09100013370720 .
+
+halalf:Kusuka_Keripik_Singkong_Original food:containsIngredient halali:singkong,halali:minyak_kelapa_sawit,halali:gula,halali:garam,halali:bumbu_rasa_original .
+
+halalf:Kusuka_Keripik_Singkong_Original food:ingredientsListAsText "singkong", "minyak kelapa sawit", "gula", "garam", "bumbu rasa original" .
+
+halalf:Kusuka_Keripik_Singkong_Rumput_Laut a foodlirmm:FoodProduct;
+	a food:Food;
+	foodlirmm:code "220";
+	rdfs:label "kusuka keripik singkong rumput laut";
+	gr:hasManufacturer halalm:Delapan_Saudara .
+
+halalf:Kusuka_Keripik_Singkong_Rumput_Laut foodlirmm:certificate halalc:01101125250215 .
+
+halalf:Kusuka_Keripik_Singkong_Rumput_Laut food:containsIngredient halali:singkong,halali:minyak_kelapa_sawit,halali:gula,halali:bumbu_rasa_rumput_laut,halali:natrium_glutamat,halali:garam .
+
+halalf:Kusuka_Keripik_Singkong_Rumput_Laut food:ingredientsListAsText "singkong", "minyak kelapa sawit", "gula", "bumbu rasa rumput laut", "natrium glutamat", "garam" .
+
+halalf:Kusuka_Keripik_Singkong_Saos_Balado a foodlirmm:FoodProduct;
+	a food:Food;
+	foodlirmm:code "117";
+	rdfs:label "kusuka keripik singkong saos balado";
+	gr:hasManufacturer halalm:Keripik_Ante .
+
+halalf:Kusuka_Keripik_Singkong_Saos_Balado foodlirmm:certificate halalc:02120012290618 .
+
+halalf:Kusuka_Keripik_Singkong_Saos_Balado food:containsIngredient halali:singkong,halali:minyak_kelapa_sawit,halali:gula,halali:garam,halali:cabai,halali:bawang_putih .
+
+halalf:Kusuka_Keripik_Singkong_Saos_Balado food:ingredientsListAsText "singkong", "minyak kelapa sawit", "gula", "garam", "cabai", "bawang putih" .
+
+halalf:Kusuka_Keripik_Talas_Sapi_Panggang a foodlirmm:FoodProduct;
+    	a food:Food;
+    	foodlirmm:code "233";
+    	rdfs:label "kusuka keripik talas sapi panggang";
+    	gr:hasManufacturer halalm:Ppkopbnr_Ud_Cahaya .
+
+    halalf:Kusuka_Keripik_Talas_Sapi_Panggang foodlirmm:certificate halalc:15100048670420 .
+
+    halalf:Lay_S_Snack_Potato_Chips_Bbq_Fiesta a foodlirmm:FoodProduct;
+	a food:Food;
+	foodlirmm:code "796";
+	rdfs:label "lay's snack potato chips bbq fiesta";
+	gr:hasManufacturer halalm:Rdmk_Hana_Snack .
+
+halalf:Lay_S_Snack_Potato_Chips_Bbq_Fiesta foodlirmm:certificate halalc:15100026040817 .
+
+halalf:Lay_S_Snack_Potato_Chips_Bbq_Fiesta food:containsIngredient halali:kentang,halali:minyak_kelapa_sawit,halali:bumbu_rasa_barbeque,halali:penguat_rasa_mononatrium_glutamat,halali:msg,halali:antioksidan_tbhq .
+
+halalf:Lay_S_Snack_Potato_Chips_Bbq_Fiesta food:ingredientsListAsText "kentang", "minyak kelapa sawit", "bumbu rasa barbeque", "penguat rasa mononatrium glutamat", "msg", "antioksidan tbhq" .
+
+halalf:Lay_S_Snack_Potato_Chips_Nori_Seaweed a foodlirmm:FoodProduct;
+	a food:Food;
+	foodlirmm:code "1069";
+	rdfs:label "lay's snack potato chips nori seaweed";
+	gr:hasManufacturer halalm:Dlala .
+
+halalf:Lay_S_Snack_Potato_Chips_Nori_Seaweed foodlirmm:certificate halalc:00100115540221 .
+
+halalf:Lay_S_Snack_Potato_Chips_Nori_Seaweed food:containsIngredient halali:kentang,halali:minyak_kelapa_sawit,halali:bumbu_rasa_rumput_laut,halali:ekstrak_rumput_laut,halali:kedelai,halali:gandum,halali:ikan,halali:penguat_rasa_mononatrium_glutamat,halali:dinatrium_inosinat,halali:dinatrium_guanilat .
+
+halalf:Lay_S_Snack_Potato_Chips_Nori_Seaweed food:ingredientsListAsText "kentang", "minyak kelapa sawit", "bumbu rasa rumput laut", "ekstrak rumput laut", "kedelai", "gandum", "ikan", "penguat rasa mononatrium glutamat", "dinatrium inosinat", "dinatrium guanilat" .
+
+halalf:Lay_S_Snack_Potato_Chips_Salmon_Teriyaki a foodlirmm:FoodProduct;
+	a food:Food;
+	foodlirmm:code "1063";
+	rdfs:label "lay's snack potato chips salmon teriyaki";
+	gr:hasManufacturer halalm:Hakata_Genko .
+
+halalf:Lay_S_Snack_Potato_Chips_Salmon_Teriyaki foodlirmm:certificate halalc:00160111021120 .
+
+halalf:Lay_S_Snack_Potato_Chips_Salmon_Teriyaki food:containsIngredient halali:kentang,halali:minyak_kelapa_sawit,halali:bumbu_rasa_salmon_teriyaki,halali:penguat_rasa_mononatrium_glutamat,halali:dinatrium_trosinat,halali:dinatrium_guanilat,halali:antioksidan_tbhq .
+
+halalf:Lay_S_Snack_Potato_Chips_Salmon_Teriyaki food:ingredientsListAsText "kentang", "minyak kelapa sawit", "bumbu rasa salmon teriyaki", "penguat rasa mononatrium glutamat", "dinatrium trosinat", "dinatrium guanilat", "antioksidan tbhq" .
+
+halalf:Lay_S_Snack_Potato_Chips_Saus_Krim_Onion a foodlirmm:FoodProduct;
+	a food:Food;
+	foodlirmm:code "1220";
+	rdfs:label "lay's snack potato chips saus krim,onion";
+	gr:hasManufacturer halalm:Dlala .
+
+halalf:Lay_S_Snack_Potato_Chips_Saus_Krim_Onion foodlirmm:certificate halalc:00100115540221 .
+
+halalf:Lay_S_Snack_Potato_Chips_Saus_Krim_Onion food:containsIngredient halali:kentang,halali:minyak_kelapa_sawit,halali:bumbu_rasa_saus_krim,halali:bawang,halali:susu,halali:kedelai,halali:gandum,halali:bawang_merah_bubuk,halali:penguat_rasa,halali:mononatrium_glutamat,halali:dinatrium_ribonukleotida,halali:serpihan_daun_peterseli .
+
+halalf:Lay_S_Snack_Potato_Chips_Saus_Krim_Onion food:ingredientsListAsText "kentang", "minyak kelapa sawit", "bumbu rasa saus krim", "bawang", "susu", "kedelai", "gandum", "bawang merah bubuk", "penguat rasa", "mononatrium glutamat", "dinatrium ribonukleotida", "serpihan daun peterseli" .
+
+halalf:Lea_Perrins_Worcestershire_Sauce a foodlirmm:FoodProduct;
+	a food:Food;
+	foodlirmm:code "1148";
+	rdfs:label "lea,perrins worcestershire sauce";
+	gr:hasManufacturer halalm:Pt_Kikkoman_Akufood_Indonesia .
+
+halalf:Lea_Perrins_Worcestershire_Sauce foodlirmm:certificate halalc:00060078940916 .
+
+halalf:Lea_Perrins_Worcestershire_Sauce food:containsIngredient halali:cuka_gandum,halali:cuka_spirit,halali:molasses,halali:gula,halali:garam,halali:ikan .
+
+halalf:Lea_Perrins_Worcestershire_Sauce food:ingredientsListAsText "cuka gandum", "cuka spirit", "molasses", "gula", "garam", "ikan" .
+
+halalf:Lemonia_Minuman_Sari_Lemon a foodlirmm:FoodProduct;
+	a food:Food;
+	foodlirmm:code "663";
+	rdfs:label "lemonia minuman sari lemon";
+	gr:hasManufacturer halalm:Gifta_Cullinare .
+
+halalf:Lemonia_Minuman_Sari_Lemon foodlirmm:certificate halalc:03120027390819 .
+
+halalf:Lemonia_Minuman_Sari_Lemon food:containsIngredient halali:jeruk_lemon .
+
+halalf:Lemonia_Minuman_Sari_Lemon food:ingredientsListAsText "jeruk lemon" .
+
+halalf:Le_Minerale_Air_Mineral a foodlirmm:FoodProduct;
+	a food:Food;
+	foodlirmm:code "150";
+	rdfs:label "le minerale air mineral";
+	gr:hasManufacturer halalm:Cv_Oto_Boga_Jaya .
+
+halalf:Le_Minerale_Air_Mineral foodlirmm:certificate halalc:00160117390321 .
+
+halalf:Le_Minerale_Air_Mineral food:containsIngredient halali:calcium,halali:magnesium,halali:sodium,halali:potassium,halali:nitrate,halali:bicarbonate,halali:sulfate,halali:chloride .
+
+halalf:Le_Minerale_Air_Mineral food:ingredientsListAsText "calcium", "magnesium", "sodium", "potassium", "nitrate", "bicarbonate", "sulfate", "chloride" .
+
+halalf:Lipton_Minuman_Serbuk_Iced_Tea_Lemon a foodlirmm:FoodProduct;
+	a food:Food;
+	foodlirmm:code "198";
+	rdfs:label "lipton minuman serbuk iced tea lemon";
+	gr:hasManufacturer halalm:Arayaindo .
+
+halalf:Lipton_Minuman_Serbuk_Iced_Tea_Lemon foodlirmm:certificate halalc:00120106620920 .
+
+halalf:Lipton_Minuman_Serbuk_Iced_Tea_Lemon food:containsIngredient halali:gula,halali:ekstrak_tehhitam,halali:pengatur_keasaman,halali:asam_sitrat,halali:maltodekstrin,halali:perisa_alami_lemon,halali:antioksidan_tokoferol,halali:garam,halali:pemanis_alami_glikosida_steviol .
+
+halalf:Lipton_Minuman_Serbuk_Iced_Tea_Lemon food:ingredientsListAsText "gula", "ekstrak tehhitam", "pengatur keasaman", "asam sitrat", "maltodekstrin", "perisa alami lemon", "antioksidan tokoferol", "garam", "pemanis alami glikosida steviol" .
+
+halalf:Loacker_Wafer_Cream_Kakao a foodlirmm:FoodProduct;
+	a food:Food;
+	foodlirmm:code "837";
+	rdfs:label "loacker wafer cream kakao";
+	gr:hasManufacturer halalm:Pt_Unimos .
+
+halalf:Loacker_Wafer_Cream_Kakao foodlirmm:certificate halalc:00100083330617 .
+
+halalf:Loacker_Wafer_Cream_Kakao food:containsIngredient halali:wheat_flour,halali:glucose_syrup,halali:sugar,halali:hazelnuts__in_the_cream,halali:sweet_whey_powder,halali:soy_flour,halali:skimmed_milk_powder,halali:fat_reduced_cocoa,halali:dekstrosa,halali:malt_extract,halali:garam,halali:raising_agents,halali:sodium_hydrogen_carbonate,halali:disodium_difosfat,halali:emulsifier_soy_lecithins,halali:vanili_pods,halali:bourbon_pure_coconut_oil,halali:fine_chocolate,halali:specially_selected_hazelnuts_from_naples_and_authentic_vanili_pods .
+
+halalf:Loacker_Wafer_Cream_Kakao food:ingredientsListAsText "wheat flour", "glucose syrup", "sugar", "hazelnuts  in the cream", "sweet whey powder", "soy flour", "skimmed milk powder", "fat reduced cocoa", "dekstrosa", "malt extract", "garam", "raising agents", "sodium hydrogen carbonate", "disodium difosfat", "emulsifier soy lecithins", "vanili pods", "bourbon pure coconut oil", "fine chocolate", "specially selected hazelnuts from naples and authentic vanili pods" .
+
+halalf:Loacker_Wafer_Quadratini_Cappuccino a foodlirmm:FoodProduct;
+	a food:Food;
+	foodlirmm:code "835";
+	rdfs:label "loacker wafer quadratini cappuccino";
+	gr:hasManufacturer halalm:Pt_Dua_Kelinci .
+
+halalf:Loacker_Wafer_Quadratini_Cappuccino foodlirmm:certificate halalc:00100017571001 .
+
+halalf:Loacker_Wafer_Quadratini_Cappuccino food:containsIngredient halali:tepung_gandum,halali:minyak_kelapa,halali:sirup_glukosa,halali:bubuk_whey,halali:gula,halali:dekstrosa,halali:kopi_bubuk,halali:susu_skim_bubuk,halali:tepung_kedelai,halali:ekstrak_barley_malt,halali:garam,halali:pengemulsi_lesitin_kedelai,halali:cokelat_rendah_lemak,halali:pengembang_natrium_hidrogen_karbonat,halali:penstabil_dinatrium_difosfat,halali:vanili,halali:kacang_hazel,halali:rempah_rempah,halali:kayu_manis .
+
+halalf:Loacker_Wafer_Quadratini_Cappuccino food:ingredientsListAsText "tepung gandum", "minyak kelapa", "sirup glukosa", "bubuk whey", "gula", "dekstrosa", "kopi bubuk", "susu skim bubuk", "tepung kedelai", "ekstrak barley malt", "garam", "pengemulsi lesitin kedelai", "cokelat rendah lemak", "pengembang natrium hidrogen karbonat", "penstabil dinatrium difosfat", "vanili", "kacang hazel", "rempah rempah", "kayu manis" .
+
+halalf:Loacker_Wafer_Quadratini_Chocolate a foodlirmm:FoodProduct;
+	a food:Food;
+	foodlirmm:code "839";
+	rdfs:label "loacker wafer quadratini chocolate";
+	gr:hasManufacturer halalm:Pt_Ceres .
+
+halalf:Loacker_Wafer_Quadratini_Chocolate foodlirmm:certificate halalc:00100029330404 .
+
+halalf:Loacker_Wafer_Quadratini_Chocolate food:containsIngredient halali:tepung_terigu,halali:minyak_kelapa,halali:sirup_glukosa,halali:bubuk_whey,halali:gula,halali:kakao_massa,halali:dekstrosa,halali:susu_skim_bubuk,halali:tepung_kedelai,halali:cokelat,halali:ekstrak_barley_malt,halali:garam,halali:pengemulsi_lesitin_kedelai,halali:cokelat_rendah_lemak,halali:pengembang_natrium_hidrogen_karbonat,halali:penstabil_dinatrium_difosfat,halali:vanili,halali:kacang_hazel,halali:rempah_rempah,halali:kayu_manis .
+
+halalf:Loacker_Wafer_Quadratini_Chocolate food:ingredientsListAsText "tepung terigu", "minyak kelapa", "sirup glukosa", "bubuk whey", "gula", "kakao massa", "dekstrosa", "susu skim bubuk", "tepung kedelai", "cokelat", "ekstrak barley malt", "garam", "pengemulsi lesitin kedelai", "cokelat rendah lemak", "pengembang natrium hidrogen karbonat", "penstabil dinatrium difosfat", "vanili", "kacang hazel", "rempah rempah", "kayu manis" .
+
+halalf:Loacker_Wafer_Quadratini_Cocoa_Milk a foodlirmm:FoodProduct;
+    	a food:Food;
+    	foodlirmm:code "1215";
+    	rdfs:label "loacker wafer quadratini cocoa,milk";
+    	gr:hasManufacturer halalm:Pt_Puratos_Indonesia .
+
+    halalf:Loacker_Wafer_Quadratini_Cocoa_Milk foodlirmm:certificate halalc:00210025450703 .
+
+    halalf:Loacker_Wafer_Quadratini_Dark_Chocolate a foodlirmm:FoodProduct;
+	a food:Food;
+	foodlirmm:code "838";
+	rdfs:label "loacker wafer quadratini dark chocolate";
+	gr:hasManufacturer halalm:Chokato .
+
+halalf:Loacker_Wafer_Quadratini_Dark_Chocolate foodlirmm:certificate halalc:13130026941120 .
+
+halalf:Loacker_Wafer_Quadratini_Dark_Chocolate food:containsIngredient halali:tepung_terigu,halali:minyak_kelapa,halali:sirup_glukosa,halali:gula,halali:kakao_rendah_lemak,halali:dekstrosa,halali:cokelat_hitam__dalam_isian_krim,halali:massa_kakao,halali:gula,halali:tepung_kedelai,halali:bubuk_whey,halali:susu,halali:susu_bubuk_skim,halali:ekstrak_barley_malt,halali:agen_penambah,halali:natrium_hidrogen_karbonat,halali:disodium_difosfat,halali:hazelnut,halali:garam,halali:lesitin_kedelai_pengemulsi,halali:polong_vanili_bourbon,halali:rempahrempah .
+
+halalf:Loacker_Wafer_Quadratini_Dark_Chocolate food:ingredientsListAsText "tepung terigu", "minyak kelapa", "sirup glukosa", "gula", "kakao rendah lemak", "dekstrosa", "cokelat hitam  dalam isian krim", "massa kakao", "gula", "tepung kedelai", "bubuk whey", "susu", "susu bubuk skim", "ekstrak barley malt", "agen penambah", "natrium hidrogen karbonat", "disodium difosfat", "hazelnut", "garam", "lesitin kedelai pengemulsi", "polong vanili bourbon", "rempah-rempah" .
+
+halalf:Loacker_Wafer_Quadratini_Napolitaner a foodlirmm:FoodProduct;
+	a food:Food;
+	foodlirmm:code "1275";
+	rdfs:label "loacker wafer quadratini napolitaner";
+	gr:hasManufacturer halalm:Ud_Aldy .
+
+halalf:Loacker_Wafer_Quadratini_Napolitaner foodlirmm:certificate halalc:00290032980105 .
+
+halalf:Loacker_Wafer_Quadratini_Napolitaner food:containsIngredient halali:tepung_terigu,halali:minyak_kelapa,halali:sirup_glukosa,halali:gula,halali:kacang_hazel,halali:bubuk_whey,halali:tepung_kedelai,halali:susu_bubuk_skim,halali:cokelat_rendah_lemak,halali:dekstrosa,halali:ekstrak_barley_malt,halali:garam,halali:pengembang_natrium_hidrogen_karbonat,halali:penstabil_dinatrium_difosfat,halali:vanili,halali:kacang_hazel,halali:pengemulsi_lesitin_kedelai,halali:rempah_rempah,halali:kayu_manis .
+
+halalf:Loacker_Wafer_Quadratini_Napolitaner food:ingredientsListAsText "tepung terigu", "minyak kelapa", "sirup glukosa", "gula", "kacang hazel", "bubuk whey", "tepung kedelai", "susu bubuk skim", "cokelat rendah lemak", "dekstrosa", "ekstrak barley malt", "garam", "pengembang natrium hidrogen karbonat", "penstabil dinatrium difosfat", "vanili", "kacang hazel", "pengemulsi lesitin kedelai", "rempah rempah", "kayu manis" .
+
+halalf:Loacker_Wafer_Quadratini_Vanilla a foodlirmm:FoodProduct;
+	a food:Food;
+	foodlirmm:code "859";
+	rdfs:label "loacker wafer quadratini vanilla";
+	gr:hasManufacturer halalm:Pt_Ceres .
+
+halalf:Loacker_Wafer_Quadratini_Vanilla foodlirmm:certificate halalc:00100029330404 .
+
+halalf:Loacker_Wafer_Quadratini_Vanilla food:containsIngredient halali:tepung_terigu,halali:minyak_kelapa,halali:sirup_glukosa,halali:bubuk_whey,halali:gula,halali:dekstrosa,halali:susu_bubuk_skim,halali:tepung_kedelai,halali:ekstrak_barley_malt,halali:garam,halali:pengemulsi_lesitin_kedelai,halali:cokelat_rendah_lemak,halali:pengembang_natrium_hidrogen_karbonat,halali:penstabil_dinatrium_difosfat,halali:vanili,halali:kacang_hazel,halali:rempah_rempah,halali:kayu_manis .
+
+halalf:Loacker_Wafer_Quadratini_Vanilla food:ingredientsListAsText "tepung terigu", "minyak kelapa", "sirup glukosa", "bubuk whey", "gula", "dekstrosa", "susu bubuk skim", "tepung kedelai", "ekstrak barley malt", "garam", "pengemulsi lesitin kedelai", "cokelat rendah lemak", "pengembang natrium hidrogen karbonat", "penstabil dinatrium difosfat", "vanili", "kacang hazel", "rempah rempah", "kayu manis" .
+
+halalf:Lotte_Choco_Pie_Marsmallow_6_S a foodlirmm:FoodProduct;
+	a food:Food;
+	foodlirmm:code "1232";
+	rdfs:label "lotte choco pie marsmallow 6's";
+	gr:hasManufacturer halalm:Pt_Rekso_Nasional_Food .
+
+halalf:Lotte_Choco_Pie_Marsmallow_6_S foodlirmm:certificate halalc:00160000630499 .
+
+halalf:Lotte_Choco_Pie_Marsmallow_6_S food:containsIngredient halali:tepung_terigu,halali:cokelat_compound,halali:sirup_glukosa,halali:gula,halali:lemak_nabati,halali:antioksidan_tokoferol,halali:pengemulsi,halali:gliserol,halali:lesitin_kedelai,halali:mo,halali:digliserida_asam_lemak,halali:pgpr,halali:telur,halali:dekstrosa,halali:pati_termodifikasi_penstabil,halali:gelatin_sapi,halali:monokalsium_fosfat,halali:gom_xanthan,halali:pengembang,halali:natrium_bikarbonat,halali:amonium_bikarbonat,halali:sirup_fruktosa,halali:pengawet_kalium_sorbat,halali:perisa_artifisial_vanili,halali:protein_susu_terhidrolisa .
+
+halalf:Lotte_Choco_Pie_Marsmallow_6_S food:ingredientsListAsText "tepung terigu", "cokelat compound", "sirup glukosa", "gula", "lemak nabati", "antioksidan tokoferol", "pengemulsi", "gliserol", "lesitin kedelai", "mo", "digliserida asam lemak", "pgpr", "telur", "dekstrosa", "pati termodifikasi penstabil", "gelatin sapi", "monokalsium fosfat", "gom xanthan", "pengembang", "natrium bikarbonat", "amonium bikarbonat", "sirup fruktosa", "pengawet kalium sorbat", "perisa artifisial vanili", "protein susu terhidrolisa" .
+
+halalf:Lotte_Minuman_Bersoda_Milkis_Banana a foodlirmm:FoodProduct;
+    	a food:Food;
+    	foodlirmm:code "1159";
+    	rdfs:label "lotte minuman bersoda milkis banana";
+    	gr:hasManufacturer halalm:Arayaindo .
+
+    halalf:Lotte_Minuman_Bersoda_Milkis_Banana foodlirmm:certificate halalc:00120106620920 .
+
+    halalf:Lotte_Minuman_Bersoda_Milkis_Strawberry a foodlirmm:FoodProduct;
+    	a food:Food;
+    	foodlirmm:code "1161";
+    	rdfs:label "lotte minuman bersoda milkis strawberry";
+    	gr:hasManufacturer halalm:Pt_Goodfood_Indonesia .
+
+    halalf:Lotte_Minuman_Bersoda_Milkis_Strawberry foodlirmm:certificate halalc:00120042890107 .
+
+    halalf:Lotte_Minuman_Buah_Pear a foodlirmm:FoodProduct;
+    	a food:Food;
+    	foodlirmm:code "994";
+    	rdfs:label "lotte minuman buah pear";
+    	gr:hasManufacturer halalm:Fans_Food .
+
+    halalf:Lotte_Minuman_Buah_Pear foodlirmm:certificate halalc:15120031200518 .
+
+    halalf:Lotte_Minuman_Chilsung_Cider_Lemon a foodlirmm:FoodProduct;
+    	a food:Food;
+    	foodlirmm:code "1162";
+    	rdfs:label "lotte minuman chilsung cider lemon";
+    	gr:hasManufacturer halalm:Dapoer_Bunda_Ochie .
+
+    halalf:Lotte_Minuman_Chilsung_Cider_Lemon foodlirmm:certificate halalc:03120027410819 .
+
+    halalf:Lotte_Minuman_Rasa_Buah_Grape_Coconut a foodlirmm:FoodProduct;
+    	a food:Food;
+    	foodlirmm:code "955";
+    	rdfs:label "lotte minuman rasa buah grape,coconut";
+    	gr:hasManufacturer halalm:Arayaindo .
+
+    halalf:Lotte_Minuman_Rasa_Buah_Grape_Coconut foodlirmm:certificate halalc:00120106620920 .
+
+    halalf:Lotte_Snack_Biscuit_Koala_Chocolate a foodlirmm:FoodProduct;
+	a food:Food;
+	foodlirmm:code "849";
+	rdfs:label "lotte snack biscuit koala chocolate";
+	gr:hasManufacturer halalm:Emmh_Snack_Indonesia .
+
+halalf:Lotte_Snack_Biscuit_Koala_Chocolate foodlirmm:certificate halalc:07100071130120 .
+
+halalf:Lotte_Snack_Biscuit_Koala_Chocolate food:containsIngredient halali:cokelat_susu_compound,halali:tepung_terigu,halali:pati_jagung,halali:lemak_nabati_reroti,halali:antioksidan_vitamin_e,halali:gula,halali:telur,halali:gula_invert,halali:pengembang,halali:amonium_bikarbonat,halali:natrium_bikarbonat,halali:garam,halali:pewarna_makanan_karamel .
+
+halalf:Lotte_Snack_Biscuit_Koala_Chocolate food:ingredientsListAsText "cokelat susu compound", "tepung terigu", "pati jagung", "lemak nabati reroti", "antioksidan vitamin e", "gula", "telur", "gula invert", "pengembang", "amonium bikarbonat", "natrium bikarbonat", "garam", "pewarna makanan karamel" .
+
+halalf:Lotus_Biscoff_Biscuit_Karamel a foodlirmm:FoodProduct;
+    	a food:Food;
+    	foodlirmm:code "1209";
+    	rdfs:label "lotus biscoff biscuit karamel";
+    	gr:hasManufacturer halalm:Pt_Premier_Doughnut_Indonesia_Krispy_Kreme .
+
+    halalf:Lotus_Biscoff_Biscuit_Karamel foodlirmm:certificate halalc:00160068660314 .
+
+    halalf:Lovy_Butter_Cookies_Choco_Butter a foodlirmm:FoodProduct;
+    	a food:Food;
+    	foodlirmm:code "76";
+    	rdfs:label "lovy butter cookies choco butter";
+    	gr:hasManufacturer halalm:Yona_Butter_Cookies .
+
+    halalf:Lovy_Butter_Cookies_Choco_Butter foodlirmm:certificate halalc:01201225260419 .
+
+    halalf:Lovy_Butter_Cookies_Coffeeccino a foodlirmm:FoodProduct;
+    	a food:Food;
+    	foodlirmm:code "579";
+    	rdfs:label "lovy butter cookies coffeeccino";
+    	gr:hasManufacturer halalm:Yona_Butter_Cookies .
+
+    halalf:Lovy_Butter_Cookies_Coffeeccino foodlirmm:certificate halalc:01201225260419 .
+
+    halalf:Lo_Han_Kuo_Minuman_Infusion a foodlirmm:FoodProduct;
+	a food:Food;
+	foodlirmm:code "795";
+	rdfs:label "lo han kuo minuman infusion";
+	gr:hasManufacturer halalm:Pt_Bintang_Toedjoe .
+
+halalf:Lo_Han_Kuo_Minuman_Infusion foodlirmm:certificate halalc:00130089980818 .
+
+halalf:Lo_Han_Kuo_Minuman_Infusion food:containsIngredient halali:lo_han_kuo,halali:momordicae_grosvenori_fructus_g,halali:gula,halali:cane_sugar_g .
+
+halalf:Lo_Han_Kuo_Minuman_Infusion food:ingredientsListAsText "lo han kuo", "momordicae grosvenori fructus g", "gula", "cane sugar g" .
+
+halalf:Luwak_Kopi_Bubuk_Gula a foodlirmm:FoodProduct;
+	a food:Food;
+	foodlirmm:code "290";
+	rdfs:label "luwak kopi bubuk + gula";
+	gr:hasManufacturer halalm:Ratu_Luwak .
+
+halalf:Luwak_Kopi_Bubuk_Gula foodlirmm:certificate halalc:02160011511217 .
+
+halalf:Luwak_Kopi_Bubuk_Gula food:containsIngredient halali:gula,halali:kopi_bubuk .
+
+halalf:Luwak_Kopi_Bubuk_Gula food:ingredientsListAsText "gula", "kopi bubuk" .
+
+halalf:Luwak_Kopi_Bubuk_Murni a foodlirmm:FoodProduct;
+	a food:Food;
+	foodlirmm:code "34";
+	rdfs:label "luwak kopi bubuk murni";
+	gr:hasManufacturer halalm:Plppompti_Kopi_Murni .
+
+halalf:Luwak_Kopi_Bubuk_Murni foodlirmm:certificate halalc:15120039380819 .
+
+halalf:Luwak_Kopi_Bubuk_Murni food:containsIngredient halali:kopi_bubuk .
+
+halalf:Luwak_Kopi_Bubuk_Murni food:ingredientsListAsText "kopi bubuk" .
+
+halalf:Luwak_White_Koffie_3_Rasa a foodlirmm:FoodProduct;
+	a food:Food;
+	foodlirmm:code "885";
+	rdfs:label "luwak white koffie 3 rasa";
+	gr:hasManufacturer halalm:Royyan .
+
+halalf:Luwak_White_Koffie_3_Rasa foodlirmm:certificate halalc:05100020521120 .
+
+halalf:Luwak_White_Koffie_3_Rasa food:containsIngredient halali:krimer,halali:glucose_syrup,halali:vegetable_oil,halali:sodium_caseinate,halali:protein_susu,halali:emulsifier_e,halali:stabilizer_e,halali:anti_caking_agent,halali:e,halali:colour_ea,halali:gula,halali:kopi_rendah_asam .
+
+halalf:Luwak_White_Koffie_3_Rasa food:ingredientsListAsText "krimer", "glucose syrup", "vegetable oil", "sodium caseinate", "protein susu", "emulsifier e", "stabilizer e", "anti caking agent", "e", "colour ea", "gula", "kopi rendah asam" .
